@@ -97,8 +97,8 @@
 		D59246441C117A54007F94C7 = {
 			isa = PBXGroup;
 			children = (
-				D59246501C117A55007F94C7 /* R.swift Library */,
-				D592465C1C117A55007F94C7 /* RswiftTests */,
+				D59246501C117A55007F94C7 /* Library */,
+				D592465C1C117A55007F94C7 /* LibraryTests */,
 				D592464F1C117A55007F94C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,7 +112,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D59246501C117A55007F94C7 /* R.swift Library */ = {
+		D59246501C117A55007F94C7 /* Library */ = {
 			isa = PBXGroup;
 			children = (
 				D543F9CD1C1499CF00D16A0C /* Core */,
@@ -120,17 +120,16 @@
 				D59246511C117A55007F94C7 /* Rswift.h */,
 				D59246531C117A55007F94C7 /* Info.plist */,
 			);
-			name = "R.swift Library";
-			path = Rswift;
+			path = Library;
 			sourceTree = "<group>";
 		};
-		D592465C1C117A55007F94C7 /* RswiftTests */ = {
+		D592465C1C117A55007F94C7 /* LibraryTests */ = {
 			isa = PBXGroup;
 			children = (
 				D592465D1C117A55007F94C7 /* RswiftTests.swift */,
 				D592465F1C117A55007F94C7 /* Info.plist */,
 			);
-			path = RswiftTests;
+			path = LibraryTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,10 +200,13 @@
 					};
 				};
 			};
-			buildConfigurationList = D59246481C117A54007F94C7 /* Build configuration list for PBXProject "R.swift Library" */;
+			buildConfigurationList = D59246481C117A54007F94C7 /* Build configuration list for PBXProject "R.swift.Library" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = D59246441C117A54007F94C7;
 			productRefGroup = D592464F1C117A55007F94C7 /* Products */;
 			projectDirPath = "";
@@ -367,10 +369,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Rswift/Info.plist;
+				INFOPLIST_FILE = Library/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.rswift;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.rswift.library;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -385,10 +387,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Rswift/Info.plist;
+				INFOPLIST_FILE = Library/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.rswift;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.rswift.library;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -417,7 +419,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D59246481C117A54007F94C7 /* Build configuration list for PBXProject "R.swift Library" */ = {
+		D59246481C117A54007F94C7 /* Build configuration list for PBXProject "R.swift.Library" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D59246601C117A55007F94C7 /* Debug */,

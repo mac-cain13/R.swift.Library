@@ -17,7 +17,7 @@
                BlueprintIdentifier = "D592464D1C117A55007F94C7"
                BuildableName = "Rswift.framework"
                BlueprintName = "Rswift"
-               ReferencedContainer = "container:R.swift Library.xcodeproj">
+               ReferencedContainer = "container:R.swift.Library.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "D59246571C117A55007F94C7"
                BuildableName = "RswiftTests.xctest"
                BlueprintName = "RswiftTests"
-               ReferencedContainer = "container:R.swift Library.xcodeproj">
+               ReferencedContainer = "container:R.swift.Library.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "D592464D1C117A55007F94C7"
             BuildableName = "Rswift.framework"
             BlueprintName = "Rswift"
-            ReferencedContainer = "container:R.swift Library.xcodeproj">
+            ReferencedContainer = "container:R.swift.Library.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,7 +67,7 @@
             BlueprintIdentifier = "D592464D1C117A55007F94C7"
             BuildableName = "Rswift.framework"
             BlueprintName = "Rswift"
-            ReferencedContainer = "container:R.swift Library.xcodeproj">
+            ReferencedContainer = "container:R.swift.Library.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -85,7 +85,7 @@
             BlueprintIdentifier = "D592464D1C117A55007F94C7"
             BuildableName = "Rswift.framework"
             BlueprintName = "Rswift"
-            ReferencedContainer = "container:R.swift Library.xcodeproj">
+            ReferencedContainer = "container:R.swift.Library.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

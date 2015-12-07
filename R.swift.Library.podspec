@@ -25,6 +25,6 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target    = '9.0'
 
   spec.module_name   = "Rswift"
-	spec.source_files  = "R.swift Library/Rswift/**/*.swift"
+  spec.source_files  = "Library/**/*.swift"
 
 end

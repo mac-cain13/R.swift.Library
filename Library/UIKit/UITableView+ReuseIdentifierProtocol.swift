@@ -10,11 +10,8 @@ import Foundation
 import UIKit
 
 public extension UITableView {
-  public func dequeueReusableCellWithIdentifier<Identifier: ReuseIdentifierProtocol where Identifier.ReusableType: UITableViewCell>(identifier: Identifier, forIndexPath indexPath: NSIndexPath?) -> Identifier.ReusableType? {
-    if let indexPath = indexPath {
-      return dequeueReusableCellWithIdentifier(identifier.identifier, forIndexPath: indexPath) as? Identifier.ReusableType
-    }
-    return dequeueReusableCellWithIdentifier(identifier.identifier) as? Identifier.ReusableType
+  public func dequeueReusableCellWithIdentifier<Identifier: ReuseIdentifierProtocol where Identifier.ReusableType: UITableViewCell>(identifier: Identifier, forIndexPath indexPath: NSIndexPath) -> Identifier.ReusableType? {
+    return dequeueReusableCellWithIdentifier(identifier.identifier, forIndexPath: indexPath) as? Identifier.ReusableType
   }
 
   public func dequeueReusableCellWithIdentifier<Identifier: ReuseIdentifierProtocol where Identifier.ReusableType: UITableViewCell>(identifier: Identifier) -> Identifier.ReusableType? {

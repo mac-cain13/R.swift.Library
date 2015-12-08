@@ -10,7 +10,7 @@ Regular users probably want to include this library to use [R.swift](https://git
 
 ### CocoaPods (recommended)
 
-_**Be aware:** If you just want to use R.swift follow the install instructions for R.swift._
+_**Be aware:** If you just want to use R.swift follow the [installation instructions for R.swift](https://github.com/mac-cain13/R.swift#Installation)._
 
 1. Add `pod 'R.swift.Library'` to your [Podfile](http://cocoapods.org/#get_started)
 2. Run `pod install`
@@ -19,6 +19,21 @@ _**Be aware:** If you just want to use R.swift follow the install instructions f
 
 1. Add `github "mac-cain13/R.swift.Library"` to your [Cartfile](https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#cartfile)
 2. Run `carthage`
+
+### Manually
+
+_As an embedded framework using git submodules._
+
+0. If your project is not yet a git repository, run `git init`
+1. Add R.swift.Library as a submodule by running: `git submodule add https://github.com/mac-cain13/R.swift.Library.git`
+3. Open the new `R.swift.Library` folder, and drag the `R.swift.Library.xcodeproj` into the Project Navigator of your application's Xcode project.
+4. Select the `R.swift.Library.xcodeproj` in the Project Navigator and verify the deployment target matches that of your application target.
+5. Select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the "Targets" heading in the sidebar.
+6. In the tab bar at the top of that window, open the "General" panel.
+7. Click on the `+` button under the "Embedded Binaries" section.
+8. Choose the `Rswift.framework`
+
+> The `Rswift.framework` is automagically added as a target dependency, linked framework and embedded framework in a copy files build phase which is all you need to build on the simulator and a device.
 
 ## License
 

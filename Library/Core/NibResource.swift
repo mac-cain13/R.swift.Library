@@ -22,5 +22,5 @@ public protocol NibResource {
    
    - returns: A new instance of this nib
   */
-  func instantiate() -> UINib
+  func initialize() -> UINib
 }

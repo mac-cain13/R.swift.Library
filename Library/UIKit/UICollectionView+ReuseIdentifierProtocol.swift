@@ -50,7 +50,7 @@ public extension UICollectionView {
    - parameter nibResource: A nib resource (R.nib.*) containing a object of type UICollectionViewCell that has a reuse identifier
    */
   public func registerNib<Resource: NibResource where Resource: ReuseIdentifierProtocol, Resource.ReusableType: UICollectionViewCell>(nibResource: Resource) {
-    registerNib(nibResource.instantiate(), forCellWithReuseIdentifier: nibResource.identifier)
+    registerNib(nibResource.initialize(), forCellWithReuseIdentifier: nibResource.identifier)
   }
 
   /**
@@ -68,6 +68,6 @@ public extension UICollectionView {
    - parameter nibResource: A nib resource (R.nib.*) containing a object of type UICollectionReusableView. that has a reuse identifier
    */
   public func registerNib<Resource: NibResource where Resource: ReuseIdentifierProtocol, Resource.ReusableType: UICollectionReusableView>(nibResource: Resource, forSupplementaryViewOfKind kind: String) {
-    registerNib(nibResource.instantiate(), forSupplementaryViewOfKind: kind, withReuseIdentifier: nibResource.identifier)
+    registerNib(nibResource.initialize(), forSupplementaryViewOfKind: kind, withReuseIdentifier: nibResource.identifier)
   }
 }

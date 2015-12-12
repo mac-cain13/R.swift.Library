@@ -63,7 +63,7 @@ public extension UITableView {
    - parameter nibResource: A nib resource (R.nib.*) containing a table view cell that has a reuse identifier
   */
   public func registerNib<Resource: NibResource where Resource: ReuseIdentifierProtocol, Resource.ReusableType: UITableViewCell>(nibResource: Resource) {
-    registerNib(nibResource.instantiate(), forCellReuseIdentifier: nibResource.identifier)
+    registerNib(nibResource.initialize(), forCellReuseIdentifier: nibResource.identifier)
   }
 
   /**
@@ -72,6 +72,6 @@ public extension UITableView {
    - parameter nibResource: A nib resource (R.nib.*) containing a view that has a reuse identifier
    */
   public func registerNibForHeaderFooterView<Resource: NibResource where Resource: ReuseIdentifierProtocol, Resource.ReusableType: UIView>(nibResource: Resource) {
-    registerNib(nibResource.instantiate(), forHeaderFooterViewReuseIdentifier: nibResource.identifier)
+    registerNib(nibResource.initialize(), forHeaderFooterViewReuseIdentifier: nibResource.identifier)
   }
 }

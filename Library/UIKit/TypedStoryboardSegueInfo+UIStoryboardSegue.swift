@@ -10,6 +10,11 @@ import Foundation
 import UIKit
 
 extension TypedStoryboardSegueInfo {
+  /**
+   Returns typed information about the given segue, fails if the segue doesn't exactly match this identifier.
+   
+   - returns: A newly initialized TypedStoryboardSegueInfo object or nil.
+  */
   public init?(segue: UIStoryboardSegue) {
     guard let identifier = segue.identifier,
       sourceViewController = segue.sourceViewController as? Source,

@@ -8,20 +8,25 @@
 
 import Foundation
 
-struct ValidationError: ErrorType, CustomStringConvertible {
-  let description: String
+public struct ValidationError: ErrorType, CustomStringConvertible {
+  public let description: String
+
+  public init(description: String) {
+    self.description = description
+  }
 }
 
-protocol Validatable {
-  func validate() throws
+/// Validates this entity and throws if it encounters a invalid situation, a validatable should also validate it sub-validatables if it has any. Only things that can't be validated compile time, but result in an invalid situation should be validated
+public protocol Validatable {
+  static func validate() throws
 }
 
 extension Validatable {
-  func assertValid() {
+  public static func assertValid() {
     assert( theRealAssert() )
   }
 
-  private func theRealAssert() -> Bool {
+  private static func theRealAssert() -> Bool {
     do {
       try validate()
     } catch {

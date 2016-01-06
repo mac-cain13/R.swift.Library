@@ -20,15 +20,6 @@ public protocol NibResource {
 
 public extension NibResource {
   /**
-   Create a new instance of this nib file
-
-   - returns: A new instance of this nib
-   */
-  public func initialize() -> UINib {
-    return UINib.init(nibName: name, bundle: bundle)
-  }
-
-  /**
    Instantiate the nib to get the top-level object from this nib
 
    - parameter ownerOrNil: The owner, if the owner parameter is nil, connections to File's Owner are not permitted.

@@ -18,6 +18,8 @@
 		D543F9CA1C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9C91C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift */; };
 		D543F9CC1C1499AB00D16A0C /* UIStoryboardSegue+StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9CB1C1499AB00D16A0C /* UIStoryboardSegue+StoryboardSegueIdentifierProtocol.swift */; };
 		D543F9CF1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9CE1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */; };
+		D57E1EB31C3D762300DDA68F /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EB21C3D762300DDA68F /* FontResource.swift */; };
+		D57E1EB51C3D774000DDA68F /* UIFont+FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EB41C3D774000DDA68F /* UIFont+FontResource.swift */; };
 		D59246521C117A55007F94C7 /* Rswift.h in Headers */ = {isa = PBXBuildFile; fileRef = D59246511C117A55007F94C7 /* Rswift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D59246591C117A55007F94C7 /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D592464E1C117A55007F94C7 /* Rswift.framework */; };
 		D592465E1C117A55007F94C7 /* RswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592465D1C117A55007F94C7 /* RswiftTests.swift */; };
@@ -47,6 +49,8 @@
 		D543F9C91C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+StoryboardSegueIdentifierProtocol.swift"; sourceTree = "<group>"; };
 		D543F9CB1C1499AB00D16A0C /* UIStoryboardSegue+StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboardSegue+StoryboardSegueIdentifierProtocol.swift"; sourceTree = "<group>"; };
 		D543F9CE1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; sourceTree = "<group>"; };
+		D57E1EB21C3D762300DDA68F /* FontResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontResource.swift; sourceTree = "<group>"; };
+		D57E1EB41C3D774000DDA68F /* UIFont+FontResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+FontResource.swift"; sourceTree = "<group>"; };
 		D592464E1C117A55007F94C7 /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59246511C117A55007F94C7 /* Rswift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rswift.h; sourceTree = "<group>"; };
 		D59246531C117A55007F94C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 				D543F9CB1C1499AB00D16A0C /* UIStoryboardSegue+StoryboardSegueIdentifierProtocol.swift */,
 				D543F9CE1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */,
 				D5E435A81C3CFB460091090C /* NibResource+UIKit.swift */,
+				D57E1EB41C3D774000DDA68F /* UIFont+FontResource.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 				D543F9BE1C14983100D16A0C /* StoryboardSegueIdentifierProtocol.swift */,
 				D543F9C01C14984300D16A0C /* NibResource.swift */,
 				D5E435AC1C3D00770091090C /* FileResource.swift */,
+				D57E1EB21C3D762300DDA68F /* FontResource.swift */,
 				D53F19231C229D7200AE2FAD /* Validatable.swift */,
 			);
 			path = Core;
@@ -253,8 +259,10 @@
 				D543F9CA1C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
 				D5E435AD1C3D00770091090C /* FileResource.swift in Sources */,
 				D543F9BB1C1497EB00D16A0C /* Identifier.swift in Sources */,
+				D57E1EB31C3D762300DDA68F /* FontResource.swift in Sources */,
 				D543F9BD1C14980600D16A0C /* ReuseIdentifierProtocol.swift in Sources */,
 				D543F9C11C14984300D16A0C /* NibResource.swift in Sources */,
+				D57E1EB51C3D774000DDA68F /* UIFont+FontResource.swift in Sources */,
 				D543F9C61C14992000D16A0C /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */,
 				D543F9BF1C14983100D16A0C /* StoryboardSegueIdentifierProtocol.swift in Sources */,
 				D543F9C81C14995800D16A0C /* UIViewController+NibResource.swift in Sources */,

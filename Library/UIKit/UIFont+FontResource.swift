@@ -10,14 +10,14 @@ import Foundation
 
 public extension UIFont {
   /**
-   Creates and returns a font object for the specified font resource and size.
+   Creates and returns a font object for the specified font resource (R.font.*) and size.
 
-   - parameter font: The font resource for the specific font to load
+   - parameter resource: The font resource (R.font.*) for the specific font to load
    - parameter size: The size (in points) to which the font is scaled. This value must be greater than 0.0.
 
    - returns: A font object of the specified font resource and size.
    */
-  public convenience init?(font: FontResource, size: CGFloat) {
-    self.init(name: font.fontName, size: size)
+  public convenience init?(resource: FontResource, size: CGFloat) {
+    self.init(name: resource.fontName, size: size)
   }
 }

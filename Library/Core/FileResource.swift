@@ -8,19 +8,23 @@
 
 import Foundation
 
-public protocol FileResource {
+public struct FileResource {
   /// Bundle this file is in or nil for main bundle
-  var bundle: NSBundle? { get }
+  public let bundle: NSBundle?
 
   /// Name of the file file on disk
-  var name: String { get }
+  public let name: String
 
   /// Extension of the file on disk
-  var pathExtension: String { get }
-}
+  public let pathExtension: String
 
-public extension FileResource {
   public var url: NSURL? {
     return bundle?.URLForResource(name, withExtension: pathExtension, subdirectory: nil, localization: nil)
+  }
+
+  public init(bundle: NSBundle?, name: String, pathExtension: String) {
+    self.bundle = bundle
+    self.name = name
+    self.pathExtension = pathExtension
   }
 }

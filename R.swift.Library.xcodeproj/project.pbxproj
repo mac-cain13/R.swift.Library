@@ -474,7 +474,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.1;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -493,7 +493,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.1;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -675,6 +675,7 @@
 				806E69A51C42BD9C00DE3A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		806E69A61C42BD9C00DE3A8B /* Build configuration list for PBXNativeTarget "RswiftTests-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -683,6 +684,7 @@
 				806E69A81C42BD9C00DE3A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D59246481C117A54007F94C7 /* Build configuration list for PBXProject "R.swift.Library" */ = {
 			isa = XCConfigurationList;

@@ -18,10 +18,6 @@ public struct FileResource {
   /// Extension of the file on disk
   public let pathExtension: String
 
-  public var url: NSURL? {
-    return bundle?.URLForResource(name, withExtension: pathExtension, subdirectory: nil, localization: nil)
-  }
-
   public init(bundle: NSBundle?, name: String, pathExtension: String) {
     self.bundle = bundle
     self.name = name

@@ -8,7 +8,9 @@
 
 import Foundation
 
+/// Error thrown during validation
 public struct ValidationError: ErrorType, CustomStringConvertible {
+  /// Human readable description
   public let description: String
 
   public init(description: String) {
@@ -16,12 +18,19 @@ public struct ValidationError: ErrorType, CustomStringConvertible {
   }
 }
 
-/// Validates this entity and throws if it encounters a invalid situation, a validatable should also validate it sub-validatables if it has any. Only things that can't be validated compile time, but result in an invalid situation should be validated
 public protocol Validatable {
+  /**
+   Validates this entity and throws if it encounters a invalid situation, a validatable should also validate it sub-validatables if it has any.
+
+   - throws: If there the configuration error a ValidationError is thrown
+   */
   static func validate() throws
 }
 
 extension Validatable {
+  /**
+   Validates this entity and asserts if it encounters a invalid situation, a validatable should also validate it sub-validatables if it has any. In -O builds (the default for Xcode's Release configuration), validation is not evaluated, and there are no effects.
+   */
   public static func assertValid() {
     assert( theRealAssert() )
   }

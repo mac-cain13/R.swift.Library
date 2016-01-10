@@ -19,6 +19,7 @@
 		D543F9CC1C1499AB00D16A0C /* UIStoryboardSegue+StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9CB1C1499AB00D16A0C /* UIStoryboardSegue+StoryboardSegueIdentifierProtocol.swift */; };
 		D543F9CF1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9CE1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */; };
 		D5588CAB1C3F9DBE00912F97 /* UINib+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5588CAA1C3F9DBE00912F97 /* UINib+NibResource.swift */; };
+		D56DC7731C42B65C00623437 /* NSBundle+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DC7721C42B65C00623437 /* NSBundle+FileResource.swift */; };
 		D57E1EB31C3D762300DDA68F /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EB21C3D762300DDA68F /* FontResource.swift */; };
 		D57E1EB51C3D774000DDA68F /* UIFont+FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EB41C3D774000DDA68F /* UIFont+FontResource.swift */; };
 		D57E1EB71C3E482A00DDA68F /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EB61C3E482A00DDA68F /* StoryboardResource.swift */; };
@@ -54,6 +55,7 @@
 		D543F9CB1C1499AB00D16A0C /* UIStoryboardSegue+StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboardSegue+StoryboardSegueIdentifierProtocol.swift"; sourceTree = "<group>"; };
 		D543F9CE1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; sourceTree = "<group>"; };
 		D5588CAA1C3F9DBE00912F97 /* UINib+NibResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINib+NibResource.swift"; sourceTree = "<group>"; };
+		D56DC7721C42B65C00623437 /* NSBundle+FileResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSBundle+FileResource.swift"; sourceTree = "<group>"; };
 		D57E1EB21C3D762300DDA68F /* FontResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontResource.swift; sourceTree = "<group>"; };
 		D57E1EB41C3D774000DDA68F /* UIFont+FontResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+FontResource.swift"; sourceTree = "<group>"; };
 		D57E1EB61C3E482A00DDA68F /* StoryboardResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardResource.swift; sourceTree = "<group>"; };
@@ -121,6 +123,14 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		D56DC7711C42B62E00623437 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				D56DC7721C42B65C00623437 /* NSBundle+FileResource.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		D59246441C117A54007F94C7 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				D543F9CD1C1499CF00D16A0C /* Core */,
+				D56DC7711C42B62E00623437 /* Foundation */,
 				D543F9C21C14987000D16A0C /* UIKit */,
 				D59246511C117A55007F94C7 /* Rswift.h */,
 				D59246531C117A55007F94C7 /* Info.plist */,
@@ -285,6 +296,7 @@
 				D5E435A91C3CFB460091090C /* NibResource+UIKit.swift in Sources */,
 				D543F9CF1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */,
 				D543F9C41C1498FB00D16A0C /* UITableView+ReuseIdentifierProtocol.swift in Sources */,
+				D56DC7731C42B65C00623437 /* NSBundle+FileResource.swift in Sources */,
 				D53F19241C229D7200AE2FAD /* Validatable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

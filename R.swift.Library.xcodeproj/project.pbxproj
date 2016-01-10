@@ -91,17 +91,17 @@
 		D543F9C21C14987000D16A0C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				D543F9C31C1498FB00D16A0C /* UITableView+ReuseIdentifierProtocol.swift */,
+				D5E435A81C3CFB460091090C /* NibResource+UIKit.swift */,
+				D57E1EB81C3E4C1A00DDA68F /* StoryboardResourceWithInitialController+UIKit.swift */,
+				D543F9CE1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */,
 				D543F9C51C14992000D16A0C /* UICollectionView+ReuseIdentifierProtocol.swift */,
+				D57E1EB41C3D774000DDA68F /* UIFont+FontResource.swift */,
+				D5588CAA1C3F9DBE00912F97 /* UINib+NibResource.swift */,
+				D57E1EBA1C3E4C4300DDA68F /* UIStoryboard+StoryboardResource.swift */,
+				D543F9CB1C1499AB00D16A0C /* UIStoryboardSegue+StoryboardSegueIdentifierProtocol.swift */,
+				D543F9C31C1498FB00D16A0C /* UITableView+ReuseIdentifierProtocol.swift */,
 				D543F9C71C14995800D16A0C /* UIViewController+NibResource.swift */,
 				D543F9C91C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift */,
-				D543F9CB1C1499AB00D16A0C /* UIStoryboardSegue+StoryboardSegueIdentifierProtocol.swift */,
-				D543F9CE1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */,
-				D5E435A81C3CFB460091090C /* NibResource+UIKit.swift */,
-				D57E1EB41C3D774000DDA68F /* UIFont+FontResource.swift */,
-				D57E1EB81C3E4C1A00DDA68F /* StoryboardResourceWithInitialController+UIKit.swift */,
-				D57E1EBA1C3E4C4300DDA68F /* UIStoryboard+StoryboardResource.swift */,
-				D5588CAA1C3F9DBE00912F97 /* UINib+NibResource.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -109,13 +109,13 @@
 		D543F9CD1C1499CF00D16A0C /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				D543F9BA1C1497EB00D16A0C /* Identifier.swift */,
-				D543F9BC1C14980600D16A0C /* ReuseIdentifierProtocol.swift */,
-				D543F9BE1C14983100D16A0C /* StoryboardSegueIdentifierProtocol.swift */,
-				D543F9C01C14984300D16A0C /* NibResource.swift */,
 				D5E435AC1C3D00770091090C /* FileResource.swift */,
 				D57E1EB21C3D762300DDA68F /* FontResource.swift */,
+				D543F9BA1C1497EB00D16A0C /* Identifier.swift */,
+				D543F9C01C14984300D16A0C /* NibResource.swift */,
+				D543F9BC1C14980600D16A0C /* ReuseIdentifierProtocol.swift */,
 				D57E1EB61C3E482A00DDA68F /* StoryboardResource.swift */,
+				D543F9BE1C14983100D16A0C /* StoryboardSegueIdentifierProtocol.swift */,
 				D53F19231C229D7200AE2FAD /* Validatable.swift */,
 			);
 			path = Core;

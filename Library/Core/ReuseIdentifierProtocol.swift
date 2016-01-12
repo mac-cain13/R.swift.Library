@@ -9,13 +9,13 @@
 import Foundation
 
 /// Reuse identifier protocol
-public protocol ReuseIdentifierProtocol: Identifier {
+public protocol ReuseIdentifierType: IdentifierType {
   /// Type of this reuseable
   typealias ReusableType
 }
 
 /// Reuse identifier
-public struct ReuseIdentifier<Reusable>: ReuseIdentifierProtocol {
+public struct ReuseIdentifier<Reusable>: ReuseIdentifierType {
   /// Type of this reuseable
   public typealias ReusableType = Reusable
 

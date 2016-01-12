@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public protocol StoryboardResource {
+public protocol StoryboardResourceType {
 
   /// Bundle this storyboard is in or nil for main bundle
   var bundle: NSBundle? { get }
@@ -18,7 +18,7 @@ public protocol StoryboardResource {
   var name: String { get }
 }
 
-public protocol StoryboardResourceWithInitialController: StoryboardResource {
+public protocol StoryboardResourceWithInitialControllerType: StoryboardResourceType {
 
   /// Type of the inital controller
   typealias InitialController

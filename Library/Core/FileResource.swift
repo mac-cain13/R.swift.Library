@@ -8,7 +8,19 @@
 
 import Foundation
 
-public struct FileResource {
+public protocol FileResourceType {
+
+  /// Bundle this file is in or nil for main bundle
+  var bundle: NSBundle? { get }
+
+  /// Name of the file file on disk
+  var name: String { get }
+
+  /// Extension of the file on disk
+  var pathExtension: String { get }
+}
+
+public struct FileResource: FileResourceType {
   /// Bundle this file is in or nil for main bundle
   public let bundle: NSBundle?
 

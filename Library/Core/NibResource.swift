@@ -9,7 +9,7 @@
 import Foundation
 
 /// Represents a nib file on disk
-public protocol NibResource {
+public protocol NibResourceType {
 
   /// Bundle this nib is in or nil for main bundle
   var bundle: NSBundle? { get }

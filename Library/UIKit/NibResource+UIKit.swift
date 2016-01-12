@@ -8,7 +8,7 @@
 
 import Foundation
 
-public extension NibResource {
+public extension NibResourceType {
   /**
    Instantiate the nib to get the top-level objects from this nib
 

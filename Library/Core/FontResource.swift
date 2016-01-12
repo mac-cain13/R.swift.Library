@@ -8,9 +8,14 @@
 
 import Foundation
 
-public struct FontResource {
+public protocol FontResourceType {
   /// Name of the font
-  let fontName: String
+  var fontName: String { get }
+}
+
+public struct FontResource: FontResourceType {
+  /// Name of the font
+  public let fontName: String
 
   public init(fontName: String) {
     self.fontName = fontName

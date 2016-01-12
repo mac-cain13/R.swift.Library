@@ -9,7 +9,7 @@
 import Foundation
 
 /// Segue identifier protocol
-public protocol StoryboardSegueIdentifierProtocol: Identifier {
+public protocol StoryboardSegueIdentifierType: IdentifierType {
   /// Type of the segue itself
   typealias SegueType
 
@@ -21,7 +21,7 @@ public protocol StoryboardSegueIdentifierProtocol: Identifier {
 }
 
 /// Segue identifier
-public struct StoryboardSegueIdentifier<Segue, Source, Destination>: StoryboardSegueIdentifierProtocol {
+public struct StoryboardSegueIdentifier<Segue, Source, Destination>: StoryboardSegueIdentifierType {
   /// Type of the segue itself
   public typealias SegueType = Segue
 
@@ -45,7 +45,7 @@ public struct StoryboardSegueIdentifier<Segue, Source, Destination>: StoryboardS
 }
 
 /// Typed segue information
-public struct TypedStoryboardSegueInfo<Segue, Source, Destination>: StoryboardSegueIdentifierProtocol {
+public struct TypedStoryboardSegueInfo<Segue, Source, Destination>: StoryboardSegueIdentifierType {
   /// Type of the segue itself
   public typealias SegueType = Segue
 

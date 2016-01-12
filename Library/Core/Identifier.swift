@@ -9,12 +9,12 @@
 import Foundation
 
 /// Base protocol for all identifiers
-public protocol Identifier: CustomStringConvertible {
+public protocol IdentifierType: CustomStringConvertible {
   /// Identifier string
   var identifier: String { get }
 }
 
-extension Identifier {
+extension IdentifierType {
   /// CustomStringConvertible implementation, returns the identifier
   public var description: String {
     return identifier

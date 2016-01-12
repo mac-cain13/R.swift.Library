@@ -8,7 +8,7 @@
 
 import Foundation
 
-public extension StoryboardResourceWithInitialController {
+public extension StoryboardResourceWithInitialControllerType {
   /**
    Instantiates and returns the initial view controller in the view controller graph.
 

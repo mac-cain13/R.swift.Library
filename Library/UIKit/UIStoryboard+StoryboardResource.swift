@@ -16,7 +16,7 @@ public extension UIStoryboard {
 
    - returns: A storyboard object for the specified file. If no storyboard resource file matching name exists, an exception is thrown with description: `Could not find a storyboard named 'XXXXXX' in bundle....`
    */
-  public convenience init(resource: StoryboardResource) {
+  public convenience init(resource: StoryboardResourceType) {
     self.init(name: resource.name, bundle: resource.bundle)
   }
 }

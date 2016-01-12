@@ -18,7 +18,7 @@ public extension UIViewController {
    
    - SeeAlso: Library for typed block based segues: https://github.com/tomlokhorst/SegueManager
   */
-  public func performSegueWithIdentifier<Identifier: StoryboardSegueIdentifierProtocol>(identifier: Identifier, sender: AnyObject?) {
+  public func performSegueWithIdentifier<Identifier: StoryboardSegueIdentifierType>(identifier: Identifier, sender: AnyObject?) {
     performSegueWithIdentifier(identifier.identifier, sender: sender)
   }
 }

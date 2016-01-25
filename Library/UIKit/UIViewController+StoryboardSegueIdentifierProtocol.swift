@@ -9,16 +9,22 @@
 import Foundation
 import UIKit
 
-public extension UIViewController {
+public protocol UIViewControllerType {
+  func performSegueWithIdentifier(identifier: String, sender: AnyObject?)
+}
+
+extension UIViewController: UIViewControllerType { }
+
+public extension UIViewControllerType {
   /**
-   Initiates the segue with the specified identifier (R.segue.*) from the current view controller's storyboard file.
-   
+   Initiates the segue with the specified identifier (R.segue.*) from the current view controller's storyboard file.
    - parameter identifier: The R.segue.* that identifies the triggered segue.
-   - parameter segue: The object that you want to use to initiate the segue. This object is made available for informational purposes during the actual segue.
-   
+   - parameter sender: The object that you want to use to initiate the segue. This object is made available for informational purposes during the actual segue.
    - SeeAlso: Library for typed block based segues: [tomlokhorst/SegueManager](https://github.com/tomlokhorst/SegueManager)
-  */
-  public func performSegueWithIdentifier<Identifier: StoryboardSegueIdentifierType>(identifier: Identifier, sender: AnyObject?) {
+   */
+  public func performSegueWithIdentifier<Segue, Destination>(
+    identifier: StoryboardSegueIdentifier<Segue, Self, Destination>,
+    sender: AnyObject?) {
     performSegueWithIdentifier(identifier.identifier, sender: sender)
   }
 }

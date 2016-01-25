@@ -42,6 +42,13 @@ public struct StoryboardSegueIdentifier<Segue, Source, Destination>: StoryboardS
   public init(identifier: String) {
     self.identifier = identifier
   }
+
+  /// Create a new StoryboardSegue based on the identifier and source view controller
+  public func storyboardSegueWithSource(sourceViewController: Source)
+    -> StoryboardSegue<Segue, Source, Destination>
+  {
+    return StoryboardSegue(identifier: self, sourceViewController: sourceViewController)
+  }
 }
 
 /// Typed segue information
@@ -66,4 +73,23 @@ public struct TypedStoryboardSegueInfo<Segue, Source, Destination>: StoryboardSe
 
   /// Segue source view controller
   public let sourceViewController: Source
+}
+
+/// Segue with identifier and source view controller
+public struct StoryboardSegue<Segue, Source, Destination> {
+  /// Identifier of this segue
+  public let identifier: StoryboardSegueIdentifier<Segue, Source, Destination>
+
+  /// Segue source view controller
+  public let sourceViewController: Source
+
+  /**
+   Create a new segue based on the identifier and source view controller
+
+   - returns: A new StoryboardSegue
+   */
+  public init(identifier: StoryboardSegueIdentifier<Segue, Source, Destination>, sourceViewController: Source) {
+    self.identifier = identifier
+    self.sourceViewController = sourceViewController
+  }
 }

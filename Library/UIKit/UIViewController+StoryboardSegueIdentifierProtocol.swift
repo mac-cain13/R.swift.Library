@@ -16,9 +16,16 @@ public extension UIViewController {
    - parameter identifier: The R.segue.* that identifies the triggered segue.
    - parameter segue: The object that you want to use to initiate the segue. This object is made available for informational purposes during the actual segue.
    
-   - SeeAlso: Library for typed block based segues: https://github.com/tomlokhorst/SegueManager
+   - SeeAlso: Library for typed block based segues: [tomlokhorst/SegueManager](https://github.com/tomlokhorst/SegueManager)
   */
   public func performSegueWithIdentifier<Identifier: StoryboardSegueIdentifierType>(identifier: Identifier, sender: AnyObject?) {
     performSegueWithIdentifier(identifier.identifier, sender: sender)
+  }
+}
+
+public extension StoryboardSegue where Source : UIViewController {
+  /// Performs the specified segue
+  public func performSegue(sender: AnyObject? = nil) {
+    sourceViewController.performSegueWithIdentifier(identifier.identifier, sender: sender)
   }
 }

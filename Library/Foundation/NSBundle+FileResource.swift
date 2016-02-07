@@ -17,7 +17,7 @@ public extension NSBundle {
    - returns: The file URL for the resource file (R.file.*) or nil if the file could not be located.
    */
   public func URLForResource(resource: FileResourceType) -> NSURL? {
-    return URLForResource(resource.name, withExtension: resource.pathExtension, subdirectory: nil, localization: nil)
+    return URLForResource(resource.name, withExtension: resource.pathExtension)
   }
 
   /**
@@ -28,6 +28,6 @@ public extension NSBundle {
    - returns: The full pathname for the resource file (R.file.*) or nil if the file could not be located.
    */
   public func pathForResource(resource: FileResourceType) -> String? {
-    return pathForResource(resource.name, ofType: resource.pathExtension, inDirectory: nil, forLocalization: nil)
+    return pathForResource(resource.name, ofType: resource.pathExtension)
   }
 }

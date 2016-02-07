@@ -20,6 +20,26 @@ public protocol FileResourceType {
   var pathExtension: String { get }
 }
 
+public extension FileResourceType {
+  /**
+   Returns the full pathname for this resource.
+
+   - returns: The full pathname for this resource or nil if the file could not be located.
+   */
+  func path() -> String? {
+    return bundle?.pathForResource(self)
+  }
+
+  /**
+   Returns the file URL for this resource.
+
+   - returns: The file URL for this resource or nil if the file could not be located.
+   */
+  func url() -> NSURL? {
+    return bundle?.urlForResource(self)
+  }
+}
+
 public struct FileResource: FileResourceType {
   /// Bundle this file is in or nil for main bundle
   public let bundle: NSBundle?

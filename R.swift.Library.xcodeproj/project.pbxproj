@@ -55,6 +55,7 @@
 		D592465E1C117A55007F94C7 /* RswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592465D1C117A55007F94C7 /* RswiftTests.swift */; };
 		D5E435A91C3CFB460091090C /* NibResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E435A81C3CFB460091090C /* NibResource+UIKit.swift */; };
 		D5E435AD1C3D00770091090C /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E435AC1C3D00770091090C /* FileResource.swift */; };
+		E20F34A71C92B44100338F81 /* NSData+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F34A61C92B44100338F81 /* NSData+FileResource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,7 @@
 		D592465F1C117A55007F94C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5E435A81C3CFB460091090C /* NibResource+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NibResource+UIKit.swift"; sourceTree = "<group>"; };
 		D5E435AC1C3D00770091090C /* FileResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileResource.swift; sourceTree = "<group>"; };
+		E20F34A61C92B44100338F81 /* NSData+FileResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+FileResource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				D56DC7721C42B65C00623437 /* NSBundle+FileResource.swift */,
+				E20F34A61C92B44100338F81 /* NSData+FileResource.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				D543F9BD1C14980600D16A0C /* ReuseIdentifierProtocol.swift in Sources */,
 				D543F9C11C14984300D16A0C /* NibResource.swift in Sources */,
 				D553F5851C44157000885232 /* ImageResource.swift in Sources */,
+				E20F34A71C92B44100338F81 /* NSData+FileResource.swift in Sources */,
 				D57E1EB51C3D774000DDA68F /* UIFont+FontResource.swift in Sources */,
 				D5588CAB1C3F9DBE00912F97 /* UINib+NibResource.swift in Sources */,
 				D553F5871C44170E00885232 /* UIImage+ImageResource.swift in Sources */,

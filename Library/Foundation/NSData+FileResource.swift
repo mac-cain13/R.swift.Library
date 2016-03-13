@@ -18,12 +18,7 @@ public extension NSData {
    - returns: A NSData object with the contents of the specified file.
    */
   public convenience init?(resource: FileResourceType) {
-    let bundle = resource.bundle ?? NSBundle.mainBundle()
-
-    guard let url = bundle.URLForResource(resource.name, withExtension: resource.pathExtension) else {
-      return nil
-    }
-
+    guard let url = resource.url() else { return nil }
     self.init(contentsOfURL: url)
   }
 }

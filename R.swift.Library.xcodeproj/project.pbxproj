@@ -27,6 +27,10 @@
 		806E69BA1C42BDE000DE3A8B /* UIViewController+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9C71C14995800D16A0C /* UIViewController+NibResource.swift */; };
 		806E69BB1C42BDE000DE3A8B /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9C91C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift */; };
 		806E69BC1C42BDE300DE3A8B /* RswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592465D1C117A55007F94C7 /* RswiftTests.swift */; };
+		D51335271C959DF20014C9D4 /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51335261C959DF20014C9D4 /* StoryboardViewControllerResource.swift */; };
+		D51335291C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51335281C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift */; };
+		D513352A1C95B7510014C9D4 /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51335261C959DF20014C9D4 /* StoryboardViewControllerResource.swift */; };
+		D513352B1C95B7620014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51335281C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift */; };
 		D53F19241C229D7200AE2FAD /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53F19231C229D7200AE2FAD /* Validatable.swift */; };
 		D543F9BB1C1497EB00D16A0C /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9BA1C1497EB00D16A0C /* Identifier.swift */; };
 		D543F9BD1C14980600D16A0C /* ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9BC1C14980600D16A0C /* ReuseIdentifierProtocol.swift */; };
@@ -77,6 +81,8 @@
 /* Begin PBXFileReference section */
 		806E69921C42BD9C00DE3A8B /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		806E699B1C42BD9C00DE3A8B /* RswiftTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RswiftTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51335261C959DF20014C9D4 /* StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardViewControllerResource.swift; sourceTree = "<group>"; };
+		D51335281C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+StoryboardViewControllerResource.swift"; sourceTree = "<group>"; };
 		D53F19231C229D7200AE2FAD /* Validatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validatable.swift; sourceTree = "<group>"; };
 		D543F9BA1C1497EB00D16A0C /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
 		D543F9BC1C14980600D16A0C /* ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseIdentifierProtocol.swift; sourceTree = "<group>"; };
@@ -148,12 +154,13 @@
 				D543F9CE1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */,
 				D543F9C51C14992000D16A0C /* UICollectionView+ReuseIdentifierProtocol.swift */,
 				D57E1EB41C3D774000DDA68F /* UIFont+FontResource.swift */,
+				D553F5861C44170E00885232 /* UIImage+ImageResource.swift */,
 				D5588CAA1C3F9DBE00912F97 /* UINib+NibResource.swift */,
 				D57E1EBA1C3E4C4300DDA68F /* UIStoryboard+StoryboardResource.swift */,
 				D543F9C31C1498FB00D16A0C /* UITableView+ReuseIdentifierProtocol.swift */,
 				D543F9C71C14995800D16A0C /* UIViewController+NibResource.swift */,
 				D543F9C91C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift */,
-				D553F5861C44170E00885232 /* UIImage+ImageResource.swift */,
+				D51335281C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -164,12 +171,13 @@
 				D5E435AC1C3D00770091090C /* FileResource.swift */,
 				D57E1EB21C3D762300DDA68F /* FontResource.swift */,
 				D543F9BA1C1497EB00D16A0C /* Identifier.swift */,
+				D553F5841C44157000885232 /* ImageResource.swift */,
 				D543F9C01C14984300D16A0C /* NibResource.swift */,
 				D543F9BC1C14980600D16A0C /* ReuseIdentifierProtocol.swift */,
 				D57E1EB61C3E482A00DDA68F /* StoryboardResource.swift */,
 				D543F9BE1C14983100D16A0C /* StoryboardSegueIdentifierProtocol.swift */,
+				D51335261C959DF20014C9D4 /* StoryboardViewControllerResource.swift */,
 				D53F19231C229D7200AE2FAD /* Validatable.swift */,
-				D553F5841C44157000885232 /* ImageResource.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -398,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5728B311C4D541200E38168 /* ImageResource.swift in Sources */,
+				D513352B1C95B7620014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
 				806E69AD1C42BDDA00DE3A8B /* ReuseIdentifierProtocol.swift in Sources */,
 				806E69B61C42BDE000DE3A8B /* UINib+NibResource.swift in Sources */,
 				806E69AA1C42BDDA00DE3A8B /* FontResource.swift in Sources */,
@@ -410,6 +419,7 @@
 				806E69BB1C42BDE000DE3A8B /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
 				806E69B21C42BDE000DE3A8B /* StoryboardResourceWithInitialController+UIKit.swift in Sources */,
 				D5728B331C4D541D00E38168 /* UIImage+ImageResource.swift in Sources */,
+				D513352A1C95B7510014C9D4 /* StoryboardViewControllerResource.swift in Sources */,
 				806E69AF1C42BDDA00DE3A8B /* StoryboardSegueIdentifierProtocol.swift in Sources */,
 				806E69AB1C42BDDA00DE3A8B /* Identifier.swift in Sources */,
 				806E69B01C42BDDA00DE3A8B /* Validatable.swift in Sources */,
@@ -434,6 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D543F9CA1C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
+				D51335291C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
 				D5E435AD1C3D00770091090C /* FileResource.swift in Sources */,
 				D543F9BB1C1497EB00D16A0C /* Identifier.swift in Sources */,
 				D57E1EB71C3E482A00DDA68F /* StoryboardResource.swift in Sources */,
@@ -446,6 +457,7 @@
 				D57E1EB51C3D774000DDA68F /* UIFont+FontResource.swift in Sources */,
 				D5588CAB1C3F9DBE00912F97 /* UINib+NibResource.swift in Sources */,
 				D553F5871C44170E00885232 /* UIImage+ImageResource.swift in Sources */,
+				D51335271C959DF20014C9D4 /* StoryboardViewControllerResource.swift in Sources */,
 				D543F9C61C14992000D16A0C /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */,
 				D543F9BF1C14983100D16A0C /* StoryboardSegueIdentifierProtocol.swift in Sources */,
 				D543F9C81C14995800D16A0C /* UIViewController+NibResource.swift in Sources */,

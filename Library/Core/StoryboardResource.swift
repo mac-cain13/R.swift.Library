@@ -10,8 +10,8 @@ import Foundation
 
 public protocol StoryboardResourceType {
 
-  /// Bundle this storyboard is in or nil for main bundle
-  var bundle: NSBundle? { get }
+  /// Bundle this storyboard is in
+  var bundle: NSBundle { get }
 
   /// Name of the storyboard file on disk
   var name: String { get }

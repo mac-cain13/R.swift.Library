@@ -31,6 +31,7 @@
 		D51335291C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51335281C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift */; };
 		D513352A1C95B7510014C9D4 /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51335261C959DF20014C9D4 /* StoryboardViewControllerResource.swift */; };
 		D513352B1C95B7620014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51335281C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift */; };
+		D513352C1C95C61E0014C9D4 /* NSData+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F34A61C92B44100338F81 /* NSData+FileResource.swift */; };
 		D53F19241C229D7200AE2FAD /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53F19231C229D7200AE2FAD /* Validatable.swift */; };
 		D543F9BB1C1497EB00D16A0C /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9BA1C1497EB00D16A0C /* Identifier.swift */; };
 		D543F9BD1C14980600D16A0C /* ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9BC1C14980600D16A0C /* ReuseIdentifierProtocol.swift */; };
@@ -410,6 +411,7 @@
 			files = (
 				D5728B311C4D541200E38168 /* ImageResource.swift in Sources */,
 				D513352B1C95B7620014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
+				D513352C1C95C61E0014C9D4 /* NSData+FileResource.swift in Sources */,
 				806E69AD1C42BDDA00DE3A8B /* ReuseIdentifierProtocol.swift in Sources */,
 				806E69B61C42BDE000DE3A8B /* UINib+NibResource.swift in Sources */,
 				806E69AA1C42BDDA00DE3A8B /* FontResource.swift in Sources */,

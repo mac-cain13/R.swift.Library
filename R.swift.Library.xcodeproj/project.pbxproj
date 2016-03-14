@@ -62,6 +62,7 @@
 		D5E435AD1C3D00770091090C /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E435AC1C3D00770091090C /* FileResource.swift */; };
 		E20F34A71C92B44100338F81 /* NSData+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F34A61C92B44100338F81 /* NSData+FileResource.swift */; };
 		E22D43671C95EEA100692FFF /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D43661C95EEA100692FFF /* ColorResource.swift */; };
+		E24720CA1C96B4D100DF291D /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D43661C95EEA100692FFF /* ColorResource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -427,6 +428,7 @@
 				806E69BB1C42BDE000DE3A8B /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
 				806E69B21C42BDE000DE3A8B /* StoryboardResourceWithInitialController+UIKit.swift in Sources */,
 				D5728B331C4D541D00E38168 /* UIImage+ImageResource.swift in Sources */,
+				E24720CA1C96B4D100DF291D /* ColorResource.swift in Sources */,
 				D513352A1C95B7510014C9D4 /* StoryboardViewControllerResource.swift in Sources */,
 				806E69AF1C42BDDA00DE3A8B /* StoryboardSegueIdentifierProtocol.swift in Sources */,
 				806E69AB1C42BDDA00DE3A8B /* Identifier.swift in Sources */,

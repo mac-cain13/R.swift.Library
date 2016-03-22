@@ -9,7 +9,7 @@
 import Foundation
 
 public protocol StoryboardViewControllerResourceType: IdentifierType {
-  typealias ViewControllerType
+  associatedtype ViewControllerType
 }
 
 public struct StoryboardViewControllerResource<ViewController>: StoryboardViewControllerResourceType {

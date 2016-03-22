@@ -11,13 +11,13 @@ import Foundation
 /// Segue identifier protocol
 public protocol StoryboardSegueIdentifierType: IdentifierType {
   /// Type of the segue itself
-  typealias SegueType
+  associatedtype SegueType
 
   /// Type of the source view controller
-  typealias SourceType
+  associatedtype SourceType
 
   /// Type of the destination view controller
-  typealias DestinationType
+  associatedtype DestinationType
 }
 
 /// Segue identifier

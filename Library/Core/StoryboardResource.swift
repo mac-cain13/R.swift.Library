@@ -20,5 +20,5 @@ public protocol StoryboardResourceType {
 public protocol StoryboardResourceWithInitialControllerType: StoryboardResourceType {
 
   /// Type of the inital controller
-  typealias InitialController
+  associatedtype InitialController
 }

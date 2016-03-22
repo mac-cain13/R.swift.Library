@@ -11,7 +11,7 @@ import Foundation
 /// Reuse identifier protocol
 public protocol ReuseIdentifierType: IdentifierType {
   /// Type of this reuseable
-  typealias ReusableType
+  associatedtype ReusableType
 }
 
 /// Reuse identifier

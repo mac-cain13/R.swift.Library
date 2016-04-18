@@ -44,7 +44,7 @@ public extension UITableView {
    
    - returns: A UITableViewHeaderFooterView object with the associated identifier or nil if no such object exists in the reusable view queue or if it couldn't be cast correctly.
    */
-  public func dequeueReusableHeaderFooterViewWithIdentifier<Identifier: ReuseIdentifierType where Identifier.ReusableType: UITableViewCell>(identifier: Identifier) -> Identifier.ReusableType? {
+  public func dequeueReusableHeaderFooterViewWithIdentifier<Identifier: ReuseIdentifierType where Identifier.ReusableType: UITableViewHeaderFooterView>(identifier: Identifier) -> Identifier.ReusableType? {
     return dequeueReusableHeaderFooterViewWithIdentifier(identifier.identifier) as? Identifier.ReusableType
   }
 

@@ -21,6 +21,11 @@ public protocol FileResourceType {
 }
 
 public extension FileResourceType {
+  /// Name of the file on disk with the pathExtension
+  var fullName: String {
+    return [name, pathExtension].joinWithSeparator(".")
+  }
+
   /**
    Returns the full pathname for this resource.
 
@@ -44,7 +49,7 @@ public struct FileResource: FileResourceType {
   /// Bundle this file is in
   public let bundle: NSBundle
 
-  /// Name of the file file on disk
+  /// Name of the file on disk, without the pathExtension
   public let name: String
 
   /// Extension of the file on disk

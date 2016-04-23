@@ -6,7 +6,7 @@
 //  Copyright © 2016 Mathijs Kadijk. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 public protocol ColorResourceType {
 
@@ -24,17 +24,6 @@ public protocol ColorResourceType {
 
   /// Alpha componenent of color
   var alpha: CGFloat { get }
-}
-
-public extension ColorResourceType {
-  /**
-   Returns the a UIColor
-
-   - returns: A UIColor for this color resource
-   */
-  func color() -> UIColor {
-    return UIColor(red: red, green: green, blue: blue, alpha: alpha)
-  }
 }
 
 public struct ColorResource: ColorResourceType {

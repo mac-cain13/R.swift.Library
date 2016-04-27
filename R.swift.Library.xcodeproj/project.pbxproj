@@ -213,7 +213,10 @@
 				D592465C1C117A55007F94C7 /* LibraryTests */,
 				D592464F1C117A55007F94C7 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
 		};
 		D592464F1C117A55007F94C7 /* Products */ = {
 			isa = PBXGroup;

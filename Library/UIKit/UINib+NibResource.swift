@@ -6,17 +6,21 @@
 //  Copyright © 2016 Mathijs Kadijk. All rights reserved.
 //
 
-import UIKit
+#if os(iOS)
 
-public extension UINib {
-  /**
-   Returns a UINib object initialized to the nib file of the specified resource (R.nib.*).
+  import UIKit
 
-   - parameter resource: The resource (R.nib.*) to load
+  public extension UINib {
+    /**
+     Returns a UINib object initialized to the nib file of the specified resource (R.nib.*).
 
-   - returns: The initialized UINib object. An exception is thrown if there were errors during initialization or the nib file could not be located.
-   */
-  public convenience init(resource: NibResourceType) {
-    self.init(nibName: resource.name, bundle: resource.bundle)
+     - parameter resource: The resource (R.nib.*) to load
+
+     - returns: The initialized UINib object. An exception is thrown if there were errors during initialization or the nib file could not be located.
+     */
+    public convenience init(resource: NibResourceType) {
+      self.init(nibName: resource.name, bundle: resource.bundle)
+    }
   }
-}
+
+#endif

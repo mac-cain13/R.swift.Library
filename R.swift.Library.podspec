@@ -23,6 +23,9 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target    = '9.0'
 
   spec.module_name   = "Rswift"
-  spec.source_files  = "Library/**/*.swift"
+  
+  spec.source_files  = "Library/shared/**/*.swift"  
+  spec.ios.source_files = "Library/iOS/**/*.swift"
+  spec.watchos.source_files = "Library/watchOS/**/*.swift"
 
 end

@@ -8,65 +8,81 @@
 
 /* Begin PBXBuildFile section */
 		806E699C1C42BD9C00DE3A8B /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806E69921C42BD9C00DE3A8B /* Rswift.framework */; };
-		806E69A91C42BDDA00DE3A8B /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E435AC1C3D00770091090C /* FileResource.swift */; };
-		806E69AA1C42BDDA00DE3A8B /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EB21C3D762300DDA68F /* FontResource.swift */; };
-		806E69AB1C42BDDA00DE3A8B /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9BA1C1497EB00D16A0C /* Identifier.swift */; };
-		806E69AC1C42BDDA00DE3A8B /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9C01C14984300D16A0C /* NibResource.swift */; };
-		806E69AD1C42BDDA00DE3A8B /* ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9BC1C14980600D16A0C /* ReuseIdentifierProtocol.swift */; };
-		806E69AE1C42BDDA00DE3A8B /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EB61C3E482A00DDA68F /* StoryboardResource.swift */; };
-		806E69AF1C42BDDA00DE3A8B /* StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9BE1C14983100D16A0C /* StoryboardSegueIdentifierProtocol.swift */; };
-		806E69B01C42BDDA00DE3A8B /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53F19231C229D7200AE2FAD /* Validatable.swift */; };
-		806E69B11C42BDE000DE3A8B /* NibResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E435A81C3CFB460091090C /* NibResource+UIKit.swift */; };
-		806E69B21C42BDE000DE3A8B /* StoryboardResourceWithInitialController+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EB81C3E4C1A00DDA68F /* StoryboardResourceWithInitialController+UIKit.swift */; };
-		806E69B31C42BDE000DE3A8B /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9CE1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */; };
-		806E69B41C42BDE000DE3A8B /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9C51C14992000D16A0C /* UICollectionView+ReuseIdentifierProtocol.swift */; };
-		806E69B51C42BDE000DE3A8B /* UIFont+FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EB41C3D774000DDA68F /* UIFont+FontResource.swift */; };
-		806E69B61C42BDE000DE3A8B /* UINib+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5588CAA1C3F9DBE00912F97 /* UINib+NibResource.swift */; };
-		806E69B71C42BDE000DE3A8B /* UIStoryboard+StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EBA1C3E4C4300DDA68F /* UIStoryboard+StoryboardResource.swift */; };
-		806E69B91C42BDE000DE3A8B /* UITableView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9C31C1498FB00D16A0C /* UITableView+ReuseIdentifierProtocol.swift */; };
-		806E69BA1C42BDE000DE3A8B /* UIViewController+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9C71C14995800D16A0C /* UIViewController+NibResource.swift */; };
-		806E69BB1C42BDE000DE3A8B /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9C91C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift */; };
 		806E69BC1C42BDE300DE3A8B /* RswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592465D1C117A55007F94C7 /* RswiftTests.swift */; };
-		D51335271C959DF20014C9D4 /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51335261C959DF20014C9D4 /* StoryboardViewControllerResource.swift */; };
-		D51335291C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51335281C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift */; };
-		D513352A1C95B7510014C9D4 /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51335261C959DF20014C9D4 /* StoryboardViewControllerResource.swift */; };
-		D513352B1C95B7620014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51335281C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift */; };
-		D513352C1C95C61E0014C9D4 /* NSData+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F34A61C92B44100338F81 /* NSData+FileResource.swift */; };
-		D53F19241C229D7200AE2FAD /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53F19231C229D7200AE2FAD /* Validatable.swift */; };
-		D543F9BB1C1497EB00D16A0C /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9BA1C1497EB00D16A0C /* Identifier.swift */; };
-		D543F9BD1C14980600D16A0C /* ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9BC1C14980600D16A0C /* ReuseIdentifierProtocol.swift */; };
-		D543F9BF1C14983100D16A0C /* StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9BE1C14983100D16A0C /* StoryboardSegueIdentifierProtocol.swift */; };
-		D543F9C11C14984300D16A0C /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9C01C14984300D16A0C /* NibResource.swift */; };
-		D543F9C41C1498FB00D16A0C /* UITableView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9C31C1498FB00D16A0C /* UITableView+ReuseIdentifierProtocol.swift */; };
-		D543F9C61C14992000D16A0C /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9C51C14992000D16A0C /* UICollectionView+ReuseIdentifierProtocol.swift */; };
-		D543F9C81C14995800D16A0C /* UIViewController+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9C71C14995800D16A0C /* UIViewController+NibResource.swift */; };
-		D543F9CA1C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9C91C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift */; };
-		D543F9CF1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543F9CE1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */; };
-		D553F5851C44157000885232 /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553F5841C44157000885232 /* ImageResource.swift */; };
-		D553F5871C44170E00885232 /* UIImage+ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553F5861C44170E00885232 /* UIImage+ImageResource.swift */; };
-		D5588CAB1C3F9DBE00912F97 /* UINib+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5588CAA1C3F9DBE00912F97 /* UINib+NibResource.swift */; };
-		D56DC7731C42B65C00623437 /* NSBundle+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DC7721C42B65C00623437 /* NSBundle+FileResource.swift */; };
-		D5728B311C4D541200E38168 /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553F5841C44157000885232 /* ImageResource.swift */; };
-		D5728B321C4D541500E38168 /* NSBundle+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DC7721C42B65C00623437 /* NSBundle+FileResource.swift */; };
-		D5728B331C4D541D00E38168 /* UIImage+ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553F5861C44170E00885232 /* UIImage+ImageResource.swift */; };
+		C391D8221CE7C2B500B2C2FD /* ColorResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8151CE7C2B500B2C2FD /* ColorResource+UIKit.swift */; };
+		C391D8231CE7C2B500B2C2FD /* NibResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8161CE7C2B500B2C2FD /* NibResource+UIKit.swift */; };
+		C391D8241CE7C2B500B2C2FD /* StoryboardResourceWithInitialController+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8171CE7C2B500B2C2FD /* StoryboardResourceWithInitialController+UIKit.swift */; };
+		C391D8251CE7C2B500B2C2FD /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8181CE7C2B500B2C2FD /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */; };
+		C391D8261CE7C2B500B2C2FD /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8191CE7C2B500B2C2FD /* UICollectionView+ReuseIdentifierProtocol.swift */; };
+		C391D8271CE7C2B500B2C2FD /* UIFont+FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D81A1CE7C2B500B2C2FD /* UIFont+FontResource.swift */; };
+		C391D8281CE7C2B500B2C2FD /* UIImage+ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D81B1CE7C2B500B2C2FD /* UIImage+ImageResource.swift */; };
+		C391D8291CE7C2B500B2C2FD /* UINib+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D81C1CE7C2B500B2C2FD /* UINib+NibResource.swift */; };
+		C391D82A1CE7C2B500B2C2FD /* UIStoryboard+StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D81D1CE7C2B500B2C2FD /* UIStoryboard+StoryboardResource.swift */; };
+		C391D82B1CE7C2B500B2C2FD /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D81E1CE7C2B500B2C2FD /* UIStoryboard+StoryboardViewControllerResource.swift */; };
+		C391D82C1CE7C2B500B2C2FD /* UITableView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D81F1CE7C2B500B2C2FD /* UITableView+ReuseIdentifierProtocol.swift */; };
+		C391D82D1CE7C2B500B2C2FD /* UIViewController+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8201CE7C2B500B2C2FD /* UIViewController+NibResource.swift */; };
+		C391D82E1CE7C2B500B2C2FD /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8211CE7C2B500B2C2FD /* UIViewController+StoryboardSegueIdentifierProtocol.swift */; };
+		C391D82F1CE7C2BF00B2C2FD /* ColorResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8151CE7C2B500B2C2FD /* ColorResource+UIKit.swift */; };
+		C391D8301CE7C2BF00B2C2FD /* NibResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8161CE7C2B500B2C2FD /* NibResource+UIKit.swift */; };
+		C391D8311CE7C2BF00B2C2FD /* StoryboardResourceWithInitialController+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8171CE7C2B500B2C2FD /* StoryboardResourceWithInitialController+UIKit.swift */; };
+		C391D8321CE7C2BF00B2C2FD /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8181CE7C2B500B2C2FD /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */; };
+		C391D8331CE7C2BF00B2C2FD /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8191CE7C2B500B2C2FD /* UICollectionView+ReuseIdentifierProtocol.swift */; };
+		C391D8341CE7C2BF00B2C2FD /* UIFont+FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D81A1CE7C2B500B2C2FD /* UIFont+FontResource.swift */; };
+		C391D8351CE7C2BF00B2C2FD /* UIImage+ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D81B1CE7C2B500B2C2FD /* UIImage+ImageResource.swift */; };
+		C391D8361CE7C2BF00B2C2FD /* UINib+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D81C1CE7C2B500B2C2FD /* UINib+NibResource.swift */; };
+		C391D8371CE7C2BF00B2C2FD /* UIStoryboard+StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D81D1CE7C2B500B2C2FD /* UIStoryboard+StoryboardResource.swift */; };
+		C391D8381CE7C2BF00B2C2FD /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D81E1CE7C2B500B2C2FD /* UIStoryboard+StoryboardViewControllerResource.swift */; };
+		C391D8391CE7C2BF00B2C2FD /* UITableView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D81F1CE7C2B500B2C2FD /* UITableView+ReuseIdentifierProtocol.swift */; };
+		C391D83A1CE7C2BF00B2C2FD /* UIViewController+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8201CE7C2B500B2C2FD /* UIViewController+NibResource.swift */; };
+		C391D83B1CE7C2BF00B2C2FD /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8211CE7C2B500B2C2FD /* UIViewController+StoryboardSegueIdentifierProtocol.swift */; };
+		C391D83E1CE7C2DF00B2C2FD /* UIImage-watchOS+ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D83D1CE7C2DF00B2C2FD /* UIImage-watchOS+ImageResource.swift */; };
+		C391D84C1CE7C32200B2C2FD /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8401CE7C32200B2C2FD /* ColorResource.swift */; };
+		C391D84D1CE7C32200B2C2FD /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8401CE7C32200B2C2FD /* ColorResource.swift */; };
+		C391D84E1CE7C32200B2C2FD /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8401CE7C32200B2C2FD /* ColorResource.swift */; };
+		C391D84F1CE7C32200B2C2FD /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8411CE7C32200B2C2FD /* FileResource.swift */; };
+		C391D8501CE7C32200B2C2FD /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8411CE7C32200B2C2FD /* FileResource.swift */; };
+		C391D8511CE7C32200B2C2FD /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8411CE7C32200B2C2FD /* FileResource.swift */; };
+		C391D8521CE7C32200B2C2FD /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8421CE7C32200B2C2FD /* FontResource.swift */; };
+		C391D8531CE7C32200B2C2FD /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8421CE7C32200B2C2FD /* FontResource.swift */; };
+		C391D8541CE7C32200B2C2FD /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8421CE7C32200B2C2FD /* FontResource.swift */; };
+		C391D8551CE7C32200B2C2FD /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8431CE7C32200B2C2FD /* Identifier.swift */; };
+		C391D8561CE7C32200B2C2FD /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8431CE7C32200B2C2FD /* Identifier.swift */; };
+		C391D8571CE7C32200B2C2FD /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8431CE7C32200B2C2FD /* Identifier.swift */; };
+		C391D8581CE7C32200B2C2FD /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8441CE7C32200B2C2FD /* ImageResource.swift */; };
+		C391D8591CE7C32200B2C2FD /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8441CE7C32200B2C2FD /* ImageResource.swift */; };
+		C391D85A1CE7C32200B2C2FD /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8441CE7C32200B2C2FD /* ImageResource.swift */; };
+		C391D85B1CE7C32200B2C2FD /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8451CE7C32200B2C2FD /* NibResource.swift */; };
+		C391D85C1CE7C32200B2C2FD /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8451CE7C32200B2C2FD /* NibResource.swift */; };
+		C391D85D1CE7C32200B2C2FD /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8451CE7C32200B2C2FD /* NibResource.swift */; };
+		C391D85E1CE7C32200B2C2FD /* ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8461CE7C32200B2C2FD /* ReuseIdentifierProtocol.swift */; };
+		C391D85F1CE7C32200B2C2FD /* ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8461CE7C32200B2C2FD /* ReuseIdentifierProtocol.swift */; };
+		C391D8601CE7C32200B2C2FD /* ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8461CE7C32200B2C2FD /* ReuseIdentifierProtocol.swift */; };
+		C391D8611CE7C32200B2C2FD /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8471CE7C32200B2C2FD /* StoryboardResource.swift */; };
+		C391D8621CE7C32200B2C2FD /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8471CE7C32200B2C2FD /* StoryboardResource.swift */; };
+		C391D8631CE7C32200B2C2FD /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8471CE7C32200B2C2FD /* StoryboardResource.swift */; };
+		C391D8641CE7C32200B2C2FD /* StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8481CE7C32200B2C2FD /* StoryboardSegueIdentifierProtocol.swift */; };
+		C391D8651CE7C32200B2C2FD /* StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8481CE7C32200B2C2FD /* StoryboardSegueIdentifierProtocol.swift */; };
+		C391D8661CE7C32200B2C2FD /* StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8481CE7C32200B2C2FD /* StoryboardSegueIdentifierProtocol.swift */; };
+		C391D8671CE7C32200B2C2FD /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8491CE7C32200B2C2FD /* StoryboardViewControllerResource.swift */; };
+		C391D8681CE7C32200B2C2FD /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8491CE7C32200B2C2FD /* StoryboardViewControllerResource.swift */; };
+		C391D8691CE7C32200B2C2FD /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8491CE7C32200B2C2FD /* StoryboardViewControllerResource.swift */; };
+		C391D86A1CE7C32200B2C2FD /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D84A1CE7C32200B2C2FD /* StringResource.swift */; };
+		C391D86B1CE7C32200B2C2FD /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D84A1CE7C32200B2C2FD /* StringResource.swift */; };
+		C391D86C1CE7C32200B2C2FD /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D84A1CE7C32200B2C2FD /* StringResource.swift */; };
+		C391D86D1CE7C32200B2C2FD /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D84B1CE7C32200B2C2FD /* Validatable.swift */; };
+		C391D86E1CE7C32200B2C2FD /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D84B1CE7C32200B2C2FD /* Validatable.swift */; };
+		C391D86F1CE7C32200B2C2FD /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D84B1CE7C32200B2C2FD /* Validatable.swift */; };
+		C391D8731CE7C33300B2C2FD /* NSBundle+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8711CE7C33300B2C2FD /* NSBundle+FileResource.swift */; };
+		C391D8741CE7C33300B2C2FD /* NSBundle+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8711CE7C33300B2C2FD /* NSBundle+FileResource.swift */; };
+		C391D8751CE7C33300B2C2FD /* NSBundle+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8711CE7C33300B2C2FD /* NSBundle+FileResource.swift */; };
+		C391D8761CE7C33300B2C2FD /* NSData+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8721CE7C33300B2C2FD /* NSData+FileResource.swift */; };
+		C391D8771CE7C33300B2C2FD /* NSData+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8721CE7C33300B2C2FD /* NSData+FileResource.swift */; };
+		C391D8781CE7C33300B2C2FD /* NSData+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D8721CE7C33300B2C2FD /* NSData+FileResource.swift */; };
+		C3E497F51CE7AB1000F63E47 /* rswift.library.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E497F41CE7AB1000F63E47 /* rswift.library.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5728B341C4D542300E38168 /* Rswift.h in Headers */ = {isa = PBXBuildFile; fileRef = D59246511C117A55007F94C7 /* Rswift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D57E1EB31C3D762300DDA68F /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EB21C3D762300DDA68F /* FontResource.swift */; };
-		D57E1EB51C3D774000DDA68F /* UIFont+FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EB41C3D774000DDA68F /* UIFont+FontResource.swift */; };
-		D57E1EB71C3E482A00DDA68F /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EB61C3E482A00DDA68F /* StoryboardResource.swift */; };
-		D57E1EB91C3E4C1A00DDA68F /* StoryboardResourceWithInitialController+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EB81C3E4C1A00DDA68F /* StoryboardResourceWithInitialController+UIKit.swift */; };
-		D57E1EBB1C3E4C4300DDA68F /* UIStoryboard+StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E1EBA1C3E4C4300DDA68F /* UIStoryboard+StoryboardResource.swift */; };
 		D59246521C117A55007F94C7 /* Rswift.h in Headers */ = {isa = PBXBuildFile; fileRef = D59246511C117A55007F94C7 /* Rswift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D59246591C117A55007F94C7 /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D592464E1C117A55007F94C7 /* Rswift.framework */; };
 		D592465E1C117A55007F94C7 /* RswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592465D1C117A55007F94C7 /* RswiftTests.swift */; };
-		D5E435A91C3CFB460091090C /* NibResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E435A81C3CFB460091090C /* NibResource+UIKit.swift */; };
-		D5E435AD1C3D00770091090C /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E435AC1C3D00770091090C /* FileResource.swift */; };
-		E20F34A71C92B44100338F81 /* NSData+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F34A61C92B44100338F81 /* NSData+FileResource.swift */; };
-		E22D43671C95EEA100692FFF /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D43661C95EEA100692FFF /* ColorResource.swift */; };
-		E24720CA1C96B4D100DF291D /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D43661C95EEA100692FFF /* ColorResource.swift */; };
-		E250BE941CCBCEB100CC71DE /* ColorResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250BE931CCBCEB100CC71DE /* ColorResource+UIKit.swift */; };
-		E250BE951CCBF58200CC71DE /* ColorResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250BE931CCBCEB100CC71DE /* ColorResource+UIKit.swift */; };
-		E250BE971CCBF60300CC71DE /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250BE961CCBF60300CC71DE /* StringResource.swift */; };
-		E250BE991CCBF7E900CC71DE /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250BE961CCBF60300CC71DE /* StringResource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,39 +105,44 @@
 /* Begin PBXFileReference section */
 		806E69921C42BD9C00DE3A8B /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		806E699B1C42BD9C00DE3A8B /* RswiftTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RswiftTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D51335261C959DF20014C9D4 /* StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardViewControllerResource.swift; sourceTree = "<group>"; };
-		D51335281C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+StoryboardViewControllerResource.swift"; sourceTree = "<group>"; };
-		D53F19231C229D7200AE2FAD /* Validatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validatable.swift; sourceTree = "<group>"; };
-		D543F9BA1C1497EB00D16A0C /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
-		D543F9BC1C14980600D16A0C /* ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseIdentifierProtocol.swift; sourceTree = "<group>"; };
-		D543F9BE1C14983100D16A0C /* StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardSegueIdentifierProtocol.swift; sourceTree = "<group>"; };
-		D543F9C01C14984300D16A0C /* NibResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibResource.swift; sourceTree = "<group>"; };
-		D543F9C31C1498FB00D16A0C /* UITableView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
-		D543F9C51C14992000D16A0C /* UICollectionView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
-		D543F9C71C14995800D16A0C /* UIViewController+NibResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+NibResource.swift"; sourceTree = "<group>"; };
-		D543F9C91C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+StoryboardSegueIdentifierProtocol.swift"; sourceTree = "<group>"; };
-		D543F9CE1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; sourceTree = "<group>"; };
-		D553F5841C44157000885232 /* ImageResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResource.swift; sourceTree = "<group>"; };
-		D553F5861C44170E00885232 /* UIImage+ImageResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ImageResource.swift"; sourceTree = "<group>"; };
-		D5588CAA1C3F9DBE00912F97 /* UINib+NibResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINib+NibResource.swift"; sourceTree = "<group>"; };
-		D56DC7721C42B65C00623437 /* NSBundle+FileResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSBundle+FileResource.swift"; sourceTree = "<group>"; };
-		D57E1EB21C3D762300DDA68F /* FontResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontResource.swift; sourceTree = "<group>"; };
-		D57E1EB41C3D774000DDA68F /* UIFont+FontResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+FontResource.swift"; sourceTree = "<group>"; };
-		D57E1EB61C3E482A00DDA68F /* StoryboardResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardResource.swift; sourceTree = "<group>"; };
-		D57E1EB81C3E4C1A00DDA68F /* StoryboardResourceWithInitialController+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StoryboardResourceWithInitialController+UIKit.swift"; sourceTree = "<group>"; };
-		D57E1EBA1C3E4C4300DDA68F /* UIStoryboard+StoryboardResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+StoryboardResource.swift"; sourceTree = "<group>"; };
+		C391D8151CE7C2B500B2C2FD /* ColorResource+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ColorResource+UIKit.swift"; path = "iOS/UIKit/ColorResource+UIKit.swift"; sourceTree = "<group>"; };
+		C391D8161CE7C2B500B2C2FD /* NibResource+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NibResource+UIKit.swift"; path = "iOS/UIKit/NibResource+UIKit.swift"; sourceTree = "<group>"; };
+		C391D8171CE7C2B500B2C2FD /* StoryboardResourceWithInitialController+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "StoryboardResourceWithInitialController+UIKit.swift"; path = "iOS/UIKit/StoryboardResourceWithInitialController+UIKit.swift"; sourceTree = "<group>"; };
+		C391D8181CE7C2B500B2C2FD /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; path = "iOS/UIKit/TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; sourceTree = "<group>"; };
+		C391D8191CE7C2B500B2C2FD /* UICollectionView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UICollectionView+ReuseIdentifierProtocol.swift"; path = "iOS/UIKit/UICollectionView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
+		C391D81A1CE7C2B500B2C2FD /* UIFont+FontResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+FontResource.swift"; path = "iOS/UIKit/UIFont+FontResource.swift"; sourceTree = "<group>"; };
+		C391D81B1CE7C2B500B2C2FD /* UIImage+ImageResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+ImageResource.swift"; path = "iOS/UIKit/UIImage+ImageResource.swift"; sourceTree = "<group>"; };
+		C391D81C1CE7C2B500B2C2FD /* UINib+NibResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UINib+NibResource.swift"; path = "iOS/UIKit/UINib+NibResource.swift"; sourceTree = "<group>"; };
+		C391D81D1CE7C2B500B2C2FD /* UIStoryboard+StoryboardResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+StoryboardResource.swift"; path = "iOS/UIKit/UIStoryboard+StoryboardResource.swift"; sourceTree = "<group>"; };
+		C391D81E1CE7C2B500B2C2FD /* UIStoryboard+StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+StoryboardViewControllerResource.swift"; path = "iOS/UIKit/UIStoryboard+StoryboardViewControllerResource.swift"; sourceTree = "<group>"; };
+		C391D81F1CE7C2B500B2C2FD /* UITableView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITableView+ReuseIdentifierProtocol.swift"; path = "iOS/UIKit/UITableView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
+		C391D8201CE7C2B500B2C2FD /* UIViewController+NibResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+NibResource.swift"; path = "iOS/UIKit/UIViewController+NibResource.swift"; sourceTree = "<group>"; };
+		C391D8211CE7C2B500B2C2FD /* UIViewController+StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+StoryboardSegueIdentifierProtocol.swift"; path = "iOS/UIKit/UIViewController+StoryboardSegueIdentifierProtocol.swift"; sourceTree = "<group>"; };
+		C391D83D1CE7C2DF00B2C2FD /* UIImage-watchOS+ImageResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage-watchOS+ImageResource.swift"; path = "watchOS/UIKit/UIImage-watchOS+ImageResource.swift"; sourceTree = "<group>"; };
+		C391D8401CE7C32200B2C2FD /* ColorResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorResource.swift; path = shared/Core/ColorResource.swift; sourceTree = "<group>"; };
+		C391D8411CE7C32200B2C2FD /* FileResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileResource.swift; path = shared/Core/FileResource.swift; sourceTree = "<group>"; };
+		C391D8421CE7C32200B2C2FD /* FontResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontResource.swift; path = shared/Core/FontResource.swift; sourceTree = "<group>"; };
+		C391D8431CE7C32200B2C2FD /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Identifier.swift; path = shared/Core/Identifier.swift; sourceTree = "<group>"; };
+		C391D8441CE7C32200B2C2FD /* ImageResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageResource.swift; path = shared/Core/ImageResource.swift; sourceTree = "<group>"; };
+		C391D8451CE7C32200B2C2FD /* NibResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NibResource.swift; path = shared/Core/NibResource.swift; sourceTree = "<group>"; };
+		C391D8461CE7C32200B2C2FD /* ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReuseIdentifierProtocol.swift; path = shared/Core/ReuseIdentifierProtocol.swift; sourceTree = "<group>"; };
+		C391D8471CE7C32200B2C2FD /* StoryboardResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryboardResource.swift; path = shared/Core/StoryboardResource.swift; sourceTree = "<group>"; };
+		C391D8481CE7C32200B2C2FD /* StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryboardSegueIdentifierProtocol.swift; path = shared/Core/StoryboardSegueIdentifierProtocol.swift; sourceTree = "<group>"; };
+		C391D8491CE7C32200B2C2FD /* StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryboardViewControllerResource.swift; path = shared/Core/StoryboardViewControllerResource.swift; sourceTree = "<group>"; };
+		C391D84A1CE7C32200B2C2FD /* StringResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringResource.swift; path = shared/Core/StringResource.swift; sourceTree = "<group>"; };
+		C391D84B1CE7C32200B2C2FD /* Validatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Validatable.swift; path = shared/Core/Validatable.swift; sourceTree = "<group>"; };
+		C391D8711CE7C33300B2C2FD /* NSBundle+FileResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSBundle+FileResource.swift"; path = "shared/Foundation/NSBundle+FileResource.swift"; sourceTree = "<group>"; };
+		C391D8721CE7C33300B2C2FD /* NSData+FileResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSData+FileResource.swift"; path = "shared/Foundation/NSData+FileResource.swift"; sourceTree = "<group>"; };
+		C3E497EC1CE7AACB00F63E47 /* Rswift-tvOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Rswift-tvOS copy-Info.plist"; path = "/Users/tomas/Developer/R.swift/R.swift.Library/Rswift-tvOS copy-Info.plist"; sourceTree = "<absolute>"; };
+		C3E497F21CE7AB1000F63E47 /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E497F41CE7AB1000F63E47 /* rswift.library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rswift.library.h; sourceTree = "<group>"; };
+		C3E497F61CE7AB1000F63E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D592464E1C117A55007F94C7 /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59246511C117A55007F94C7 /* Rswift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rswift.h; sourceTree = "<group>"; };
 		D59246531C117A55007F94C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D59246581C117A55007F94C7 /* RswiftTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RswiftTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D592465D1C117A55007F94C7 /* RswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RswiftTests.swift; sourceTree = "<group>"; };
 		D592465F1C117A55007F94C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5E435A81C3CFB460091090C /* NibResource+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NibResource+UIKit.swift"; sourceTree = "<group>"; };
-		D5E435AC1C3D00770091090C /* FileResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileResource.swift; sourceTree = "<group>"; };
-		E20F34A61C92B44100338F81 /* NSData+FileResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+FileResource.swift"; sourceTree = "<group>"; };
-		E22D43661C95EEA100692FFF /* ColorResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorResource.swift; sourceTree = "<group>"; };
-		E250BE931CCBCEB100CC71DE /* ColorResource+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ColorResource+UIKit.swift"; sourceTree = "<group>"; };
-		E250BE961CCBF60300CC71DE /* StringResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringResource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +158,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				806E699C1C42BD9C00DE3A8B /* Rswift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E497EE1CE7AB1000F63E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,52 +186,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D543F9C21C14987000D16A0C /* UIKit */ = {
+		C391D8111CE7C23400B2C2FD /* shared */ = {
 			isa = PBXGroup;
 			children = (
-				E250BE931CCBCEB100CC71DE /* ColorResource+UIKit.swift */,
-				D5E435A81C3CFB460091090C /* NibResource+UIKit.swift */,
-				D57E1EB81C3E4C1A00DDA68F /* StoryboardResourceWithInitialController+UIKit.swift */,
-				D543F9CE1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */,
-				D543F9C51C14992000D16A0C /* UICollectionView+ReuseIdentifierProtocol.swift */,
-				D57E1EB41C3D774000DDA68F /* UIFont+FontResource.swift */,
-				D553F5861C44170E00885232 /* UIImage+ImageResource.swift */,
-				D5588CAA1C3F9DBE00912F97 /* UINib+NibResource.swift */,
-				D57E1EBA1C3E4C4300DDA68F /* UIStoryboard+StoryboardResource.swift */,
-				D51335281C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift */,
-				D543F9C31C1498FB00D16A0C /* UITableView+ReuseIdentifierProtocol.swift */,
-				D543F9C71C14995800D16A0C /* UIViewController+NibResource.swift */,
-				D543F9C91C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift */,
+				C391D8701CE7C32B00B2C2FD /* Foundation */,
+				C391D83F1CE7C31200B2C2FD /* Core */,
 			);
-			path = UIKit;
+			name = shared;
 			sourceTree = "<group>";
 		};
-		D543F9CD1C1499CF00D16A0C /* Core */ = {
+		C391D8121CE7C23F00B2C2FD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E22D43661C95EEA100692FFF /* ColorResource.swift */,
-				D5E435AC1C3D00770091090C /* FileResource.swift */,
-				D57E1EB21C3D762300DDA68F /* FontResource.swift */,
-				D543F9BA1C1497EB00D16A0C /* Identifier.swift */,
-				D553F5841C44157000885232 /* ImageResource.swift */,
-				D543F9C01C14984300D16A0C /* NibResource.swift */,
-				D543F9BC1C14980600D16A0C /* ReuseIdentifierProtocol.swift */,
-				D57E1EB61C3E482A00DDA68F /* StoryboardResource.swift */,
-				D543F9BE1C14983100D16A0C /* StoryboardSegueIdentifierProtocol.swift */,
-				D51335261C959DF20014C9D4 /* StoryboardViewControllerResource.swift */,
-				E250BE961CCBF60300CC71DE /* StringResource.swift */,
-				D53F19231C229D7200AE2FAD /* Validatable.swift */,
+				C391D8141CE7C2A700B2C2FD /* UIKit */,
 			);
-			path = Core;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		D56DC7711C42B62E00623437 /* Foundation */ = {
+		C391D8131CE7C24300B2C2FD /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				D56DC7721C42B65C00623437 /* NSBundle+FileResource.swift */,
-				E20F34A61C92B44100338F81 /* NSData+FileResource.swift */,
+				C391D83C1CE7C2CA00B2C2FD /* UIKIt */,
 			);
-			path = Foundation;
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		C391D8141CE7C2A700B2C2FD /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C391D8151CE7C2B500B2C2FD /* ColorResource+UIKit.swift */,
+				C391D8161CE7C2B500B2C2FD /* NibResource+UIKit.swift */,
+				C391D8171CE7C2B500B2C2FD /* StoryboardResourceWithInitialController+UIKit.swift */,
+				C391D8181CE7C2B500B2C2FD /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */,
+				C391D8191CE7C2B500B2C2FD /* UICollectionView+ReuseIdentifierProtocol.swift */,
+				C391D81A1CE7C2B500B2C2FD /* UIFont+FontResource.swift */,
+				C391D81B1CE7C2B500B2C2FD /* UIImage+ImageResource.swift */,
+				C391D81C1CE7C2B500B2C2FD /* UINib+NibResource.swift */,
+				C391D81D1CE7C2B500B2C2FD /* UIStoryboard+StoryboardResource.swift */,
+				C391D81E1CE7C2B500B2C2FD /* UIStoryboard+StoryboardViewControllerResource.swift */,
+				C391D81F1CE7C2B500B2C2FD /* UITableView+ReuseIdentifierProtocol.swift */,
+				C391D8201CE7C2B500B2C2FD /* UIViewController+NibResource.swift */,
+				C391D8211CE7C2B500B2C2FD /* UIViewController+StoryboardSegueIdentifierProtocol.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		C391D83C1CE7C2CA00B2C2FD /* UIKIt */ = {
+			isa = PBXGroup;
+			children = (
+				C391D83D1CE7C2DF00B2C2FD /* UIImage-watchOS+ImageResource.swift */,
+			);
+			name = UIKIt;
+			sourceTree = "<group>";
+		};
+		C391D83F1CE7C31200B2C2FD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C391D8401CE7C32200B2C2FD /* ColorResource.swift */,
+				C391D8411CE7C32200B2C2FD /* FileResource.swift */,
+				C391D8421CE7C32200B2C2FD /* FontResource.swift */,
+				C391D8431CE7C32200B2C2FD /* Identifier.swift */,
+				C391D8441CE7C32200B2C2FD /* ImageResource.swift */,
+				C391D8451CE7C32200B2C2FD /* NibResource.swift */,
+				C391D8461CE7C32200B2C2FD /* ReuseIdentifierProtocol.swift */,
+				C391D8471CE7C32200B2C2FD /* StoryboardResource.swift */,
+				C391D8481CE7C32200B2C2FD /* StoryboardSegueIdentifierProtocol.swift */,
+				C391D8491CE7C32200B2C2FD /* StoryboardViewControllerResource.swift */,
+				C391D84A1CE7C32200B2C2FD /* StringResource.swift */,
+				C391D84B1CE7C32200B2C2FD /* Validatable.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C391D8701CE7C32B00B2C2FD /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				C391D8711CE7C33300B2C2FD /* NSBundle+FileResource.swift */,
+				C391D8721CE7C33300B2C2FD /* NSData+FileResource.swift */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		C3E497F31CE7AB1000F63E47 /* rswift.library */ = {
+			isa = PBXGroup;
+			children = (
+				C3E497F41CE7AB1000F63E47 /* rswift.library.h */,
+				C3E497F61CE7AB1000F63E47 /* Info.plist */,
+			);
+			path = rswift.library;
 			sourceTree = "<group>";
 		};
 		D59246441C117A54007F94C7 = {
@@ -211,7 +281,9 @@
 			children = (
 				D59246501C117A55007F94C7 /* Library */,
 				D592465C1C117A55007F94C7 /* LibraryTests */,
+				C3E497F31CE7AB1000F63E47 /* rswift.library */,
 				D592464F1C117A55007F94C7 /* Products */,
+				C3E497EC1CE7AACB00F63E47 /* Rswift-tvOS copy-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -225,6 +297,7 @@
 				D59246581C117A55007F94C7 /* RswiftTests-iOS.xctest */,
 				806E69921C42BD9C00DE3A8B /* Rswift.framework */,
 				806E699B1C42BD9C00DE3A8B /* RswiftTests-tvOS.xctest */,
+				C3E497F21CE7AB1000F63E47 /* Rswift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,9 +305,9 @@
 		D59246501C117A55007F94C7 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				D543F9CD1C1499CF00D16A0C /* Core */,
-				D56DC7711C42B62E00623437 /* Foundation */,
-				D543F9C21C14987000D16A0C /* UIKit */,
+				C391D8131CE7C24300B2C2FD /* watchOS */,
+				C391D8121CE7C23F00B2C2FD /* iOS */,
+				C391D8111CE7C23400B2C2FD /* shared */,
 				D59246511C117A55007F94C7 /* Rswift.h */,
 				D59246531C117A55007F94C7 /* Info.plist */,
 			);
@@ -258,6 +331,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5728B341C4D542300E38168 /* Rswift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E497EF1CE7AB1000F63E47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E497F51CE7AB1000F63E47 /* rswift.library.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +389,24 @@
 			productReference = 806E699B1C42BD9C00DE3A8B /* RswiftTests-tvOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C3E497F11CE7AB1000F63E47 /* Rswift-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E497F71CE7AB1000F63E47 /* Build configuration list for PBXNativeTarget "Rswift-watchOS" */;
+			buildPhases = (
+				C3E497ED1CE7AB1000F63E47 /* Sources */,
+				C3E497EE1CE7AB1000F63E47 /* Frameworks */,
+				C3E497EF1CE7AB1000F63E47 /* Headers */,
+				C3E497F01CE7AB1000F63E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rswift-watchOS";
+			productName = rswift.library;
+			productReference = C3E497F21CE7AB1000F63E47 /* Rswift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D592464D1C117A55007F94C7 /* Rswift-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D59246621C117A55007F94C7 /* Build configuration list for PBXNativeTarget "Rswift-iOS" */;
@@ -350,7 +449,7 @@
 		D59246451C117A54007F94C7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Mathijs Kadijk";
 				TargetAttributes = {
@@ -359,6 +458,9 @@
 					};
 					806E699A1C42BD9C00DE3A8B = {
 						CreatedOnToolsVersion = 7.2;
+					};
+					C3E497F11CE7AB1000F63E47 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 					D592464D1C117A55007F94C7 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -384,6 +486,7 @@
 				D59246571C117A55007F94C7 /* RswiftTests-iOS */,
 				806E69911C42BD9C00DE3A8B /* Rswift-tvOS */,
 				806E699A1C42BD9C00DE3A8B /* RswiftTests-tvOS */,
+				C3E497F11CE7AB1000F63E47 /* Rswift-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -397,6 +500,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		806E69991C42BD9C00DE3A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E497F01CE7AB1000F63E47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,33 +534,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5728B311C4D541200E38168 /* ImageResource.swift in Sources */,
-				D513352B1C95B7620014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
-				D513352C1C95C61E0014C9D4 /* NSData+FileResource.swift in Sources */,
-				806E69AD1C42BDDA00DE3A8B /* ReuseIdentifierProtocol.swift in Sources */,
-				806E69B61C42BDE000DE3A8B /* UINib+NibResource.swift in Sources */,
-				806E69AA1C42BDDA00DE3A8B /* FontResource.swift in Sources */,
-				806E69B41C42BDE000DE3A8B /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */,
-				806E69B11C42BDE000DE3A8B /* NibResource+UIKit.swift in Sources */,
-				806E69B71C42BDE000DE3A8B /* UIStoryboard+StoryboardResource.swift in Sources */,
-				806E69AC1C42BDDA00DE3A8B /* NibResource.swift in Sources */,
-				806E69BA1C42BDE000DE3A8B /* UIViewController+NibResource.swift in Sources */,
-				806E69B51C42BDE000DE3A8B /* UIFont+FontResource.swift in Sources */,
-				806E69BB1C42BDE000DE3A8B /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
-				806E69B21C42BDE000DE3A8B /* StoryboardResourceWithInitialController+UIKit.swift in Sources */,
-				D5728B331C4D541D00E38168 /* UIImage+ImageResource.swift in Sources */,
-				E24720CA1C96B4D100DF291D /* ColorResource.swift in Sources */,
-				D513352A1C95B7510014C9D4 /* StoryboardViewControllerResource.swift in Sources */,
-				806E69AF1C42BDDA00DE3A8B /* StoryboardSegueIdentifierProtocol.swift in Sources */,
-				806E69AB1C42BDDA00DE3A8B /* Identifier.swift in Sources */,
-				806E69B01C42BDDA00DE3A8B /* Validatable.swift in Sources */,
-				806E69B31C42BDE000DE3A8B /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */,
-				E250BE991CCBF7E900CC71DE /* StringResource.swift in Sources */,
-				D5728B321C4D541500E38168 /* NSBundle+FileResource.swift in Sources */,
-				E250BE951CCBF58200CC71DE /* ColorResource+UIKit.swift in Sources */,
-				806E69B91C42BDE000DE3A8B /* UITableView+ReuseIdentifierProtocol.swift in Sources */,
-				806E69AE1C42BDDA00DE3A8B /* StoryboardResource.swift in Sources */,
-				806E69A91C42BDDA00DE3A8B /* FileResource.swift in Sources */,
+				C391D8741CE7C33300B2C2FD /* NSBundle+FileResource.swift in Sources */,
+				C391D8391CE7C2BF00B2C2FD /* UITableView+ReuseIdentifierProtocol.swift in Sources */,
+				C391D8311CE7C2BF00B2C2FD /* StoryboardResourceWithInitialController+UIKit.swift in Sources */,
+				C391D83A1CE7C2BF00B2C2FD /* UIViewController+NibResource.swift in Sources */,
+				C391D84D1CE7C32200B2C2FD /* ColorResource.swift in Sources */,
+				C391D83B1CE7C2BF00B2C2FD /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
+				C391D86E1CE7C32200B2C2FD /* Validatable.swift in Sources */,
+				C391D85F1CE7C32200B2C2FD /* ReuseIdentifierProtocol.swift in Sources */,
+				C391D86B1CE7C32200B2C2FD /* StringResource.swift in Sources */,
+				C391D8341CE7C2BF00B2C2FD /* UIFont+FontResource.swift in Sources */,
+				C391D8651CE7C32200B2C2FD /* StoryboardSegueIdentifierProtocol.swift in Sources */,
+				C391D8771CE7C33300B2C2FD /* NSData+FileResource.swift in Sources */,
+				C391D8331CE7C2BF00B2C2FD /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */,
+				C391D8301CE7C2BF00B2C2FD /* NibResource+UIKit.swift in Sources */,
+				C391D8501CE7C32200B2C2FD /* FileResource.swift in Sources */,
+				C391D8381CE7C2BF00B2C2FD /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
+				C391D8321CE7C2BF00B2C2FD /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */,
+				C391D8371CE7C2BF00B2C2FD /* UIStoryboard+StoryboardResource.swift in Sources */,
+				C391D8531CE7C32200B2C2FD /* FontResource.swift in Sources */,
+				C391D8591CE7C32200B2C2FD /* ImageResource.swift in Sources */,
+				C391D8361CE7C2BF00B2C2FD /* UINib+NibResource.swift in Sources */,
+				C391D8621CE7C32200B2C2FD /* StoryboardResource.swift in Sources */,
+				C391D8561CE7C32200B2C2FD /* Identifier.swift in Sources */,
+				C391D85C1CE7C32200B2C2FD /* NibResource.swift in Sources */,
+				C391D8351CE7C2BF00B2C2FD /* UIImage+ImageResource.swift in Sources */,
+				C391D82F1CE7C2BF00B2C2FD /* ColorResource+UIKit.swift in Sources */,
+				C391D8681CE7C32200B2C2FD /* StoryboardViewControllerResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,37 +572,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C3E497ED1CE7AB1000F63E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C391D8751CE7C33300B2C2FD /* NSBundle+FileResource.swift in Sources */,
+				C391D84E1CE7C32200B2C2FD /* ColorResource.swift in Sources */,
+				C391D86F1CE7C32200B2C2FD /* Validatable.swift in Sources */,
+				C391D8541CE7C32200B2C2FD /* FontResource.swift in Sources */,
+				C391D8571CE7C32200B2C2FD /* Identifier.swift in Sources */,
+				C391D86C1CE7C32200B2C2FD /* StringResource.swift in Sources */,
+				C391D8661CE7C32200B2C2FD /* StoryboardSegueIdentifierProtocol.swift in Sources */,
+				C391D8511CE7C32200B2C2FD /* FileResource.swift in Sources */,
+				C391D8631CE7C32200B2C2FD /* StoryboardResource.swift in Sources */,
+				C391D8601CE7C32200B2C2FD /* ReuseIdentifierProtocol.swift in Sources */,
+				C391D85A1CE7C32200B2C2FD /* ImageResource.swift in Sources */,
+				C391D85D1CE7C32200B2C2FD /* NibResource.swift in Sources */,
+				C391D8781CE7C33300B2C2FD /* NSData+FileResource.swift in Sources */,
+				C391D8691CE7C32200B2C2FD /* StoryboardViewControllerResource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D59246491C117A55007F94C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D543F9CA1C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
-				D51335291C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
-				D5E435AD1C3D00770091090C /* FileResource.swift in Sources */,
-				D543F9BB1C1497EB00D16A0C /* Identifier.swift in Sources */,
-				D57E1EB71C3E482A00DDA68F /* StoryboardResource.swift in Sources */,
-				D57E1EBB1C3E4C4300DDA68F /* UIStoryboard+StoryboardResource.swift in Sources */,
-				D57E1EB31C3D762300DDA68F /* FontResource.swift in Sources */,
-				D57E1EB91C3E4C1A00DDA68F /* StoryboardResourceWithInitialController+UIKit.swift in Sources */,
-				D543F9BD1C14980600D16A0C /* ReuseIdentifierProtocol.swift in Sources */,
-				D543F9C11C14984300D16A0C /* NibResource.swift in Sources */,
-				D553F5851C44157000885232 /* ImageResource.swift in Sources */,
-				E20F34A71C92B44100338F81 /* NSData+FileResource.swift in Sources */,
-				D57E1EB51C3D774000DDA68F /* UIFont+FontResource.swift in Sources */,
-				D5588CAB1C3F9DBE00912F97 /* UINib+NibResource.swift in Sources */,
-				D553F5871C44170E00885232 /* UIImage+ImageResource.swift in Sources */,
-				E22D43671C95EEA100692FFF /* ColorResource.swift in Sources */,
-				D51335271C959DF20014C9D4 /* StoryboardViewControllerResource.swift in Sources */,
-				D543F9C61C14992000D16A0C /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */,
-				D543F9BF1C14983100D16A0C /* StoryboardSegueIdentifierProtocol.swift in Sources */,
-				D543F9C81C14995800D16A0C /* UIViewController+NibResource.swift in Sources */,
-				D5E435A91C3CFB460091090C /* NibResource+UIKit.swift in Sources */,
-				E250BE971CCBF60300CC71DE /* StringResource.swift in Sources */,
-				D543F9CF1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */,
-				E250BE941CCBCEB100CC71DE /* ColorResource+UIKit.swift in Sources */,
-				D543F9C41C1498FB00D16A0C /* UITableView+ReuseIdentifierProtocol.swift in Sources */,
-				D56DC7731C42B65C00623437 /* NSBundle+FileResource.swift in Sources */,
-				D53F19241C229D7200AE2FAD /* Validatable.swift in Sources */,
+				C391D8611CE7C32200B2C2FD /* StoryboardResource.swift in Sources */,
+				C391D8671CE7C32200B2C2FD /* StoryboardViewControllerResource.swift in Sources */,
+				C391D8581CE7C32200B2C2FD /* ImageResource.swift in Sources */,
+				C391D82C1CE7C2B500B2C2FD /* UITableView+ReuseIdentifierProtocol.swift in Sources */,
+				C391D8241CE7C2B500B2C2FD /* StoryboardResourceWithInitialController+UIKit.swift in Sources */,
+				C391D82D1CE7C2B500B2C2FD /* UIViewController+NibResource.swift in Sources */,
+				C391D82E1CE7C2B500B2C2FD /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
+				C391D8271CE7C2B500B2C2FD /* UIFont+FontResource.swift in Sources */,
+				C391D84F1CE7C32200B2C2FD /* FileResource.swift in Sources */,
+				C391D86D1CE7C32200B2C2FD /* Validatable.swift in Sources */,
+				C391D84C1CE7C32200B2C2FD /* ColorResource.swift in Sources */,
+				C391D8261CE7C2B500B2C2FD /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */,
+				C391D8231CE7C2B500B2C2FD /* NibResource+UIKit.swift in Sources */,
+				C391D82B1CE7C2B500B2C2FD /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
+				C391D85E1CE7C32200B2C2FD /* ReuseIdentifierProtocol.swift in Sources */,
+				C391D8551CE7C32200B2C2FD /* Identifier.swift in Sources */,
+				C391D8251CE7C2B500B2C2FD /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */,
+				C391D8521CE7C32200B2C2FD /* FontResource.swift in Sources */,
+				C391D8731CE7C33300B2C2FD /* NSBundle+FileResource.swift in Sources */,
+				C391D83E1CE7C2DF00B2C2FD /* UIImage-watchOS+ImageResource.swift in Sources */,
+				C391D82A1CE7C2B500B2C2FD /* UIStoryboard+StoryboardResource.swift in Sources */,
+				C391D8291CE7C2B500B2C2FD /* UINib+NibResource.swift in Sources */,
+				C391D85B1CE7C32200B2C2FD /* NibResource.swift in Sources */,
+				C391D8641CE7C32200B2C2FD /* StoryboardSegueIdentifierProtocol.swift in Sources */,
+				C391D8281CE7C2B500B2C2FD /* UIImage+ImageResource.swift in Sources */,
+				C391D8221CE7C2B500B2C2FD /* ColorResource+UIKit.swift in Sources */,
+				C391D8761CE7C33300B2C2FD /* NSData+FileResource.swift in Sources */,
+				C391D86A1CE7C32200B2C2FD /* StringResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +711,51 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		C3E497F81CE7AB1000F63E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = rswift.library/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mathijskadijk.nl.rswift-library";
+				PRODUCT_NAME = Rswift;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		C3E497F91CE7AB1000F63E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = rswift.library/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mathijskadijk.nl.rswift-library";
+				PRODUCT_NAME = Rswift;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
 		};
@@ -745,6 +922,15 @@
 			buildConfigurations = (
 				806E69A71C42BD9C00DE3A8B /* Debug */,
 				806E69A81C42BD9C00DE3A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E497F71CE7AB1000F63E47 /* Build configuration list for PBXNativeTarget "Rswift-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E497F81CE7AB1000F63E47 /* Debug */,
+				C3E497F91CE7AB1000F63E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

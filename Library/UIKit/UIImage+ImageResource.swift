@@ -6,7 +6,7 @@
 //  Copyright © 2016 Mathijs Kadijk. All rights reserved.
 //
 
-#if os(iOS) | os(tvOS)
+#if os(iOS) || os(tvOS)
 
   import UIKit
 

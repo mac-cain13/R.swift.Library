@@ -6,19 +6,15 @@
 //  Copyright © 2016 Mathijs Kadijk. All rights reserved.
 //
 
-#if os(iOS)
+import UIKit
 
-  import UIKit
+public extension ColorResourceType {
+  /**
+   Returns the a UIColor
 
-  public extension ColorResourceType {
-    /**
-     Returns the a UIColor
-
-     - returns: A UIColor for this color resource
-     */
-    func color() -> UIColor {
-      return UIColor(red: red, green: green, blue: blue, alpha: alpha)
-    }
+   - returns: A UIColor for this color resource
+   */
+  func color() -> UIColor {
+    return UIColor(red: red, green: green, blue: blue, alpha: alpha)
   }
-
-#endif
+}

@@ -40,7 +40,7 @@ public extension FileResourceType {
 
    - returns: The file URL for this resource or nil if the file could not be located.
    */
-  func url() -> NSURL? {
+  func url() -> URL? {
     return bundle.URLForResource(resource: self)
   }
 }

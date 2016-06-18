@@ -19,6 +19,6 @@ public extension NSData {
    */
   public convenience init?(resource: FileResourceType) {
     guard let url = resource.url() else { return nil }
-    self.init(contentsOfURL: url)
+    self.init(contentsOf: url as URL)
   }
 }

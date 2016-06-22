@@ -1,15 +1,5 @@
 fastlane_version "1.86.0"
 
-desc "Tags a new version of R.swift.Library and releases it to cocoapods"
-desc " * GITHUB_API_TOKEN must be available in environment, create one on https://github.com/settings/tokens"
-desc "This lane should be run from your local machine, and will push a tag to the remote when finished."
-desc " * Verifies the git branch is clean"
-desc " * Ensures the lane is running on the master branch"
-desc " * Pulls the remote to verify the latest the branch is up to date"
-desc " * Asks for the new version number"
-desc " * Commit, tag and release library to cocoapods"
-desc "####Options"
-desc " * **`allow_dirty_branch`**: Allows the git branch to be dirty before continuing. Defaults to false"
 lane :release do |options|
   ensure_git_branch(branch: "master")
 
@@ -62,12 +52,12 @@ lane :release do |options|
   push_to_git_remote
 
   af_create_github_release(
-    owner: 'mac-cain13',
-    repository: 'r.swift.library',
-    tag_name: 'v#{newVersion}',
-    target_commitish: 'master',
-    name: '#{newVersion}',
-    body: '#{changelog}',
+    owner: "mac-cain13",
+    repository: "r.swift.library",
+    tag_name: "v#{newVersion}",
+    target_commitish: "master",
+    name: "#{newVersion}",
+    body: "#{changelog}",
     prerelease: isPrerelease
   )
 

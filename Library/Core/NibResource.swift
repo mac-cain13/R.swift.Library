@@ -12,7 +12,7 @@ import Foundation
 public protocol NibResourceType {
 
   /// Bundle this nib is in or nil for main bundle
-  var bundle: NSBundle { get }
+  var bundle: Bundle { get }
 
   /// Name of the nib file on disk
   var name: String { get }

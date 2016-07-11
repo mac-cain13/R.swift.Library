@@ -16,6 +16,9 @@ public protocol StringResourceType {
   /// File in containing the string
   var tableName: String { get }
 
+  /// Bundle this string is in
+  var bundle: NSBundle { get }
+
   /// Locales of the a localizable string
   var locales: [String] { get }
 }
@@ -28,12 +31,16 @@ public struct StringResource: StringResourceType {
   /// File in containing the string
   public let tableName: String
 
+  /// Bundle this string is in
+  public let bundle: NSBundle
+
   /// Locales of the a localizable string
   public let locales: [String]
 
-  public init(key: String, tableName: String, locales: [String]) {
+  public init(key: String, tableName: String, bundle: NSBundle, locales: [String]) {
     self.key = key
     self.tableName = tableName
+    self.bundle = bundle
     self.locales = locales
   }
 }

@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 public protocol SeguePerformerType {
-  func performSegueWithIdentifier(identifier: String, sender: AnyObject?)
+  func performSegue(withIdentifier identifier: String, sender: AnyObject?)
 }
 
 extension UIViewController: SeguePerformerType { }
@@ -25,7 +25,7 @@ public extension SeguePerformerType {
   public func performSegueWithIdentifier<Segue, Destination>(
     identifier: StoryboardSegueIdentifier<Segue, Self, Destination>,
     sender: AnyObject?) {
-    performSegueWithIdentifier(identifier.identifier, sender: sender)
+    performSegue(withIdentifier: identifier.identifier, sender: sender)
   }
 }
 
@@ -35,6 +35,6 @@ public extension StoryboardSegue where Source : UIViewController {
    - parameter sender: The object that you want to use to initiate the segue. This object is made available for informational purposes during the actual segue.
    */
   public func performSegue(sender: AnyObject? = nil) {
-    sourceViewController.performSegueWithIdentifier(identifier.identifier, sender: sender)
+    sourceViewController.performSegue(withIdentifier: identifier.identifier, sender: sender)
   }
 }

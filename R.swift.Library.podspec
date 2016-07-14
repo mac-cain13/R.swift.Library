@@ -19,9 +19,13 @@ Pod::Spec.new do |spec|
   spec.source          = { :git => "https://github.com/mac-cain13/R.swift.Library.git", :tag => "v#{spec.version}" }
 
   spec.ios.deployment_target     = '8.0'
+  spec.watchos.deployment_target = '2.0'
   spec.tvos.deployment_target    = '9.0'
 
   spec.module_name   = "Rswift"
-  spec.source_files  = "Library/**/*.swift"
+  
+  spec.source_files  = "Library/shared/**/*.swift"  
+  spec.ios.source_files = "Library/iOS/**/*.swift"
+  spec.watchos.source_files = "Library/watchOS/**/*.swift"
 
 end

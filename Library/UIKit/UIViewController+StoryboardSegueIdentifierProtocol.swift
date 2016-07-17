@@ -22,7 +22,7 @@ public extension SeguePerformerType {
    - parameter sender: The object that you want to use to initiate the segue. This object is made available for informational purposes during the actual segue.
    - SeeAlso: Library for typed block based segues: [tomlokhorst/SegueManager](https://github.com/tomlokhorst/SegueManager)
    */
-  public func performSegueWithIdentifier<Segue, Destination>(
+  public func performSegue<Segue, Destination>(withIdentifier
     identifier: StoryboardSegueIdentifier<Segue, Self, Destination>,
     sender: AnyObject?) {
     performSegue(withIdentifier: identifier.identifier, sender: sender)

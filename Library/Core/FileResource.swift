@@ -32,7 +32,7 @@ public extension FileResourceType {
    - returns: The full pathname for this resource or nil if the file could not be located.
    */
   func path() -> String? {
-    return bundle.pathForResource(resource: self)
+    return bundle.pathForResource(self)
   }
 
   /**
@@ -41,7 +41,7 @@ public extension FileResourceType {
    - returns: The file URL for this resource or nil if the file could not be located.
    */
   func url() -> URL? {
-    return bundle.URLForResource(resource: self)
+    return bundle.urlForResource(self)
   }
 }
 

@@ -20,7 +20,7 @@ public extension UITableView {
    
    - precondition: You must register a class or nib file using the registerNib: or registerClass:forCellReuseIdentifier: method before calling this method.
   */
-  public func dequeueReusableCellWithIdentifier<Identifier: ReuseIdentifierType where Identifier.ReusableType: UITableViewCell>(_ identifier: Identifier, forIndexPath indexPath: IndexPath) -> Identifier.ReusableType? {
+  public func dequeueReusableCell<Identifier: ReuseIdentifierType where Identifier.ReusableType: UITableViewCell>(withIdentifier identifier: Identifier, for indexPath: IndexPath) -> Identifier.ReusableType? {
     return dequeueReusableCell(withIdentifier: identifier.identifier, for: indexPath) as? Identifier.ReusableType
   }
 
@@ -33,7 +33,7 @@ public extension UITableView {
 
    - precondition: You must register a class or nib file using the registerNib: or registerClass:forCellReuseIdentifier: method before calling this method.
    */
-  public func dequeueReusableCellWithIdentifier<Identifier: ReuseIdentifierType where Identifier.ReusableType: UITableViewCell>(_ identifier: Identifier) -> Identifier.ReusableType? {
+  public func dequeueReusableCell<Identifier: ReuseIdentifierType where Identifier.ReusableType: UITableViewCell>(withIdentifier identifier: Identifier) -> Identifier.ReusableType? {
     return dequeueReusableCell(withIdentifier: identifier.identifier) as? Identifier.ReusableType
   }
 
@@ -44,7 +44,7 @@ public extension UITableView {
    
    - returns: A UITableViewHeaderFooterView object with the associated identifier or nil if no such object exists in the reusable view queue or if it couldn't be cast correctly.
    */
-  public func dequeueReusableHeaderFooterViewWithIdentifier<Identifier: ReuseIdentifierType where Identifier.ReusableType: UITableViewHeaderFooterView>(_ identifier: Identifier) -> Identifier.ReusableType? {
+  public func dequeueReusableHeaderFooterView<Identifier: ReuseIdentifierType where Identifier.ReusableType: UITableViewHeaderFooterView>(withIdentifier identifier: Identifier) -> Identifier.ReusableType? {
     return dequeueReusableHeaderFooterView(withIdentifier: identifier.identifier) as? Identifier.ReusableType
   }
 
@@ -53,8 +53,8 @@ public extension UITableView {
 
    - parameter nibResources: Array of nib resources (R.nib.*) each containing a table view cell that has a reuse identifier
    */
-  public func registerNibs<Resource: NibResourceType where Resource: ReuseIdentifierType, Resource.ReusableType: UITableViewCell>(_ nibResources: [Resource]) {
-    nibResources.forEach(registerNib)
+  public func register<Resource: NibResourceType where Resource: ReuseIdentifierType, Resource.ReusableType: UITableViewCell>(_ nibResources: [Resource]) {
+    nibResources.forEach(register)
   }
 
   /**
@@ -62,7 +62,7 @@ public extension UITableView {
    
    - parameter nibResource: A nib resource (R.nib.*) containing a table view cell that has a reuse identifier
   */
-  public func registerNib<Resource: NibResourceType where Resource: ReuseIdentifierType, Resource.ReusableType: UITableViewCell>(_ nibResource: Resource) {
+  public func register<Resource: NibResourceType where Resource: ReuseIdentifierType, Resource.ReusableType: UITableViewCell>(_ nibResource: Resource) {
     register(UINib(resource: nibResource), forCellReuseIdentifier: nibResource.identifier)
   }
 
@@ -71,7 +71,7 @@ public extension UITableView {
 
    - parameter nibResource: A nib resource (R.nib.*) containing a view that has a reuse identifier
    */
-  public func registerNibForHeaderFooterView<Resource: NibResourceType where Resource: ReuseIdentifierType, Resource.ReusableType: UIView>(_ nibResource: Resource) {
+  public func registerHeaderFooterView<Resource: NibResourceType where Resource: ReuseIdentifierType, Resource.ReusableType: UIView>(_ nibResource: Resource) {
     register(UINib(resource: nibResource), forHeaderFooterViewReuseIdentifier: nibResource.identifier)
   }
 }

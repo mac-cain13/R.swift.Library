@@ -16,7 +16,7 @@ public extension Bundle {
 
    - returns: The file URL for the resource file (R.file.*) or nil if the file could not be located.
    */
-  public func URLForResource(_ resource: FileResourceType) -> URL? {
+  public func urlForResource(_ resource: FileResourceType) -> URL? {
     return urlForResource(resource.name, withExtension: resource.pathExtension)
   }
 

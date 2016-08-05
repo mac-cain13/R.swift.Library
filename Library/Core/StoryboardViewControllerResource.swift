@@ -22,4 +22,3 @@ public struct StoryboardViewControllerResource<ViewController>: StoryboardViewCo
     self.identifier = identifier
   }
 }
-

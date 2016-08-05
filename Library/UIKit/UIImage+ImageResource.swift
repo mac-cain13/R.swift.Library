@@ -18,6 +18,6 @@ public extension UIImage {
    - returns: An image that exactly or best matches the desired traits with the given resource (R.image.*), or nil if no suitable image was found.
   */
   public convenience init?(resource: ImageResourceType, compatibleWithTraitCollection traitCollection: UITraitCollection? = nil) {
-    self.init(named: resource.name, inBundle: resource.bundle, compatibleWithTraitCollection: traitCollection)
+    self.init(named: resource.name, in: resource.bundle, compatibleWith: traitCollection)
   }
 }

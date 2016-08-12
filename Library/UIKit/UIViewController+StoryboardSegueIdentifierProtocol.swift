@@ -35,6 +35,6 @@ public extension StoryboardSegue where Source : UIViewController {
    - parameter sender: The object that you want to use to initiate the segue. This object is made available for informational purposes during the actual segue.
    */
   public func performSegue(sender: AnyObject? = nil) {
-    sourceViewController.performSegue(withIdentifier: identifier.identifier, sender: sender)
+    source.performSegue(withIdentifier: identifier.identifier, sender: sender)
   }
 }

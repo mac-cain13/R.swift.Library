@@ -9,7 +9,7 @@
 import Foundation
 
 /// Error thrown during validation
-public struct ValidationError: ErrorProtocol, CustomStringConvertible {
+public struct ValidationError: Error, CustomStringConvertible {
   /// Human readable description
   public let description: String
 

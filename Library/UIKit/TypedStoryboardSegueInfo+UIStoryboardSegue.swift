@@ -18,8 +18,8 @@ extension TypedStoryboardSegueInfo {
   public init?<SegueIdentifier: StoryboardSegueIdentifierType where SegueIdentifier.SegueType == Segue, SegueIdentifier.SourceType == Source, SegueIdentifier.DestinationType == Destination>(segueIdentifier: SegueIdentifier, segue: UIStoryboardSegue)
   {
     guard let identifier = segue.identifier,
-      let sourceViewController = segue.sourceViewController as? SegueIdentifier.SourceType,
-      let destinationViewController = segue.destinationViewController as? SegueIdentifier.DestinationType,
+      let source = segue.source as? SegueIdentifier.SourceType,
+      let destination = segue.destination as? SegueIdentifier.DestinationType,
       let segue = segue as? SegueIdentifier.SegueType, identifier == segueIdentifier.identifier
     else {
       return nil
@@ -27,7 +27,7 @@ extension TypedStoryboardSegueInfo {
 
     self.segue = segue
     self.identifier = identifier
-    self.sourceViewController = sourceViewController
-    self.destinationViewController = destinationViewController
+    self.source = source
+    self.destination = destination
   }
 }

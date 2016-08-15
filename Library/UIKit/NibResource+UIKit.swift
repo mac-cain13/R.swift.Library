@@ -18,7 +18,7 @@ public extension NibResourceType {
 
    - returns: An array containing the top-level objects from the NIB
    */
-  public func instantiate(withOwner ownerOrNil: AnyObject?, options optionsOrNil: [NSObject : AnyObject]? = [:]) -> [AnyObject] {
+  public func instantiate(withOwner ownerOrNil: Any?, options optionsOrNil: [AnyHashable : Any]? = [:]) -> [Any] {
     return UINib(resource: self).instantiate(withOwner: ownerOrNil, options: optionsOrNil)
   }
 }

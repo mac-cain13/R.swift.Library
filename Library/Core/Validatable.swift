@@ -35,11 +35,11 @@ extension Validatable {
     assert( theRealAssert() )
   }
 
-  private static func theRealAssert() -> Bool {
+  fileprivate static func theRealAssert() -> Bool {
     do {
       try validate()
     } catch {
-      assertionFailure("Validation of \(self.dynamicType) failed with error: \(error)")
+      assertionFailure("Validation of \(type(of: self)) failed with error: \(error)")
     }
 
     return true

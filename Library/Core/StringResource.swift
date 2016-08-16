@@ -18,6 +18,9 @@ public protocol StringResourceType {
 
   /// Locales of the a localizable string
   var locales: [String] { get }
+  
+  /// Comment directly before and/or after the string, if any
+  var comment: String? { get }
 }
 
 public struct StringResource: StringResourceType {
@@ -30,10 +33,14 @@ public struct StringResource: StringResourceType {
 
   /// Locales of the a localizable string
   public let locales: [String]
+  
+  /// Comment directly before and/or after the string, if any
+  public let comment: String?
 
-  public init(key: String, tableName: String, locales: [String]) {
+  public init(key: String, tableName: String, locales: [String], comment: String?) {
     self.key = key
     self.tableName = tableName
     self.locales = locales
+    self.comment = comment
   }
 }

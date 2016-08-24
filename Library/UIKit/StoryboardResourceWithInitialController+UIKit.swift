@@ -15,7 +15,7 @@ public extension StoryboardResourceWithInitialControllerType {
 
    - returns: The initial view controller in the storyboard.
    */
-  public func initialViewController() -> InitialController? {
+  public func instantiateInitialViewController() -> InitialController? {
     return UIStoryboard(resource: self).instantiateInitialViewController() as? InitialController
   }
 }

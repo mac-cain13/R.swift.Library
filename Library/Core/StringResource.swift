@@ -17,7 +17,7 @@ public protocol StringResourceType {
   var tableName: String { get }
 
   /// Bundle this string is in
-  var bundle: NSBundle { get }
+  var bundle: Bundle { get }
 
   /// Locales of the a localizable string
   var locales: [String] { get }
@@ -35,7 +35,7 @@ public struct StringResource: StringResourceType {
   public let tableName: String
 
   /// Bundle this string is in
-  public let bundle: NSBundle
+  public let bundle: Bundle
 
   /// Locales of the a localizable string
   public let locales: [String]
@@ -43,7 +43,7 @@ public struct StringResource: StringResourceType {
   /// Comment directly before and/or after the string, if any
   public let comment: String?
 
-  public init(key: String, tableName: String, bundle: NSBundle, locales: [String], comment: String?) {
+  public init(key: String, tableName: String, bundle: Bundle, locales: [String], comment: String?) {
     self.key = key
     self.tableName = tableName
     self.bundle = bundle

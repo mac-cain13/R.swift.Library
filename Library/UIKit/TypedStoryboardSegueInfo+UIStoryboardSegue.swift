@@ -15,19 +15,20 @@ extension TypedStoryboardSegueInfo {
    
    - returns: A newly initialized TypedStoryboardSegueInfo object or nil.
   */
-  public init?<SegueIdentifier: StoryboardSegueIdentifierType where SegueIdentifier.SegueType == Segue, SegueIdentifier.SourceType == Source, SegueIdentifier.DestinationType == Destination>(segueIdentifier: SegueIdentifier, segue: UIStoryboardSegue) {
+  public init?<SegueIdentifier: StoryboardSegueIdentifierType>(segueIdentifier: SegueIdentifier, segue: UIStoryboardSegue)
+    where SegueIdentifier.SegueType == Segue, SegueIdentifier.SourceType == Source, SegueIdentifier.DestinationType == Destination
+  {
     guard let identifier = segue.identifier,
-      sourceViewController = segue.sourceViewController as? SegueIdentifier.SourceType,
-      destinationViewController = segue.destinationViewController as? SegueIdentifier.DestinationType,
-      segue = segue as? SegueIdentifier.SegueType
-      where identifier == segueIdentifier.identifier
-      else {
-        return nil
+      let source = segue.source as? SegueIdentifier.SourceType,
+      let destination = segue.destination as? SegueIdentifier.DestinationType,
+      let segue = segue as? SegueIdentifier.SegueType, identifier == segueIdentifier.identifier
+    else {
+      return nil
     }
 
     self.segue = segue
     self.identifier = identifier
-    self.sourceViewController = sourceViewController
-    self.destinationViewController = destinationViewController
+    self.source = source
+    self.destination = destination
   }
 }

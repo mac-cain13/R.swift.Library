@@ -8,6 +8,8 @@
 
 import Foundation
 
+public struct NoUrlForResourceError: Error {}
+
 public extension Data {
 
   /**
@@ -17,8 +19,8 @@ public extension Data {
 
    - returns: A NSData object with the contents of the specified file.
    */
-  public init?(resource: FileResourceType) throws {
-    guard let url = resource.url() else { return nil }
+  public init(resource: FileResourceType) throws {
+    guard let url = resource.url() else { throw NoUrlForResourceError() }
     try self.init(contentsOf: url)
   }
 }

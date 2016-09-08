@@ -67,6 +67,9 @@
 		E250BE951CCBF58200CC71DE /* ColorResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250BE931CCBCEB100CC71DE /* ColorResource+UIKit.swift */; };
 		E250BE971CCBF60300CC71DE /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250BE961CCBF60300CC71DE /* StringResource.swift */; };
 		E250BE991CCBF7E900CC71DE /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250BE961CCBF60300CC71DE /* StringResource.swift */; };
+		E2B0AF361D8142A400A7196C /* Core+Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0AF351D8142A400A7196C /* Core+Migration.swift */; };
+		E2B0AF381D8142BF00A7196C /* UIKit+Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0AF371D8142BF00A7196C /* UIKit+Migration.swift */; };
+		E2B0AF3A1D81483900A7196C /* Foundation+Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0AF391D81483900A7196C /* Foundation+Migration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +125,9 @@
 		E22D43661C95EEA100692FFF /* ColorResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorResource.swift; sourceTree = "<group>"; };
 		E250BE931CCBCEB100CC71DE /* ColorResource+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ColorResource+UIKit.swift"; sourceTree = "<group>"; };
 		E250BE961CCBF60300CC71DE /* StringResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringResource.swift; sourceTree = "<group>"; };
+		E2B0AF351D8142A400A7196C /* Core+Migration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Core+Migration.swift"; sourceTree = "<group>"; };
+		E2B0AF371D8142BF00A7196C /* UIKit+Migration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Migration.swift"; sourceTree = "<group>"; };
+		E2B0AF391D81483900A7196C /* Foundation+Migration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Migration.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +180,7 @@
 				D543F9C31C1498FB00D16A0C /* UITableView+ReuseIdentifierProtocol.swift */,
 				D543F9C71C14995800D16A0C /* UIViewController+NibResource.swift */,
 				D543F9C91C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift */,
+				E2B0AF371D8142BF00A7196C /* UIKit+Migration.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -193,6 +200,7 @@
 				D51335261C959DF20014C9D4 /* StoryboardViewControllerResource.swift */,
 				E250BE961CCBF60300CC71DE /* StringResource.swift */,
 				D53F19231C229D7200AE2FAD /* Validatable.swift */,
+				E2B0AF351D8142A400A7196C /* Core+Migration.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -202,6 +210,7 @@
 			children = (
 				D56DC7721C42B65C00623437 /* Bundle+FileResource.swift */,
 				E20F34A61C92B44100338F81 /* Data+FileResource.swift */,
+				E2B0AF391D81483900A7196C /* Foundation+Migration.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -481,6 +490,7 @@
 				D543F9BD1C14980600D16A0C /* ReuseIdentifierProtocol.swift in Sources */,
 				D543F9C11C14984300D16A0C /* NibResource.swift in Sources */,
 				D553F5851C44157000885232 /* ImageResource.swift in Sources */,
+				E2B0AF381D8142BF00A7196C /* UIKit+Migration.swift in Sources */,
 				E20F34A71C92B44100338F81 /* Data+FileResource.swift in Sources */,
 				D57E1EB51C3D774000DDA68F /* UIFont+FontResource.swift in Sources */,
 				D5588CAB1C3F9DBE00912F97 /* UINib+NibResource.swift in Sources */,
@@ -490,7 +500,9 @@
 				D543F9C61C14992000D16A0C /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */,
 				D543F9BF1C14983100D16A0C /* StoryboardSegueIdentifierProtocol.swift in Sources */,
 				D543F9C81C14995800D16A0C /* UIViewController+NibResource.swift in Sources */,
+				E2B0AF3A1D81483900A7196C /* Foundation+Migration.swift in Sources */,
 				D5E435A91C3CFB460091090C /* NibResource+UIKit.swift in Sources */,
+				E2B0AF361D8142A400A7196C /* Core+Migration.swift in Sources */,
 				E250BE971CCBF60300CC71DE /* StringResource.swift in Sources */,
 				D543F9CF1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */,
 				E250BE941CCBCEB100CC71DE /* ColorResource+UIKit.swift in Sources */,

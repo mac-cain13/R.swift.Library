@@ -31,6 +31,7 @@ extension Validatable {
   /**
    Validates this entity and asserts if it encounters a invalid situation, a validatable should also validate it sub-validatables if it has any. In -O builds (the default for Xcode's Release configuration), validation is not evaluated, and there are no effects.
    */
+  @available(*, deprecated, message="Use validate() instead, preferably from a testcase.")
   public static func assertValid() {
     assert( theRealAssert() )
   }

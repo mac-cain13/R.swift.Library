@@ -40,36 +40,14 @@ public extension UICollectionView {
   }
 
   /**
-   Register a serie of R.nib.* for use in creating new collection view cells.
-
-   - parameter nibResources: An array of nib resources (R.nib.*) each containing a object of type UICollectionViewCell that has a reuse identifier
-   */
-  public func register<Resource: NibResourceType>(_ nibResources: [Resource])
-    where Resource: ReuseIdentifierType, Resource.ReusableType: UICollectionViewCell
-  {
-    nibResources.forEach(register)
-  }
-
-  /**
    Register a R.nib.* for use in creating new collection view cells.
 
    - parameter nibResource: A nib resource (R.nib.*) containing a object of type UICollectionViewCell that has a reuse identifier
    */
-  public func register<Resource: NibResourceType>(_ nibResource: Resource)
-    where Resource: ReuseIdentifierType, Resource.ReusableType: UICollectionViewCell
+  public func register<Resource: NibResourceType & ReuseIdentifierType>(_ nibResource: Resource)
+    where Resource.ReusableType: UICollectionViewCell
   {
     register(UINib(resource: nibResource), forCellWithReuseIdentifier: nibResource.identifier)
-  }
-
-  /**
-   Register a serie of R.nib.* for use in creating supplementary views for the collection view.
-
-   - parameter nibResources: An array of nib resources (R.nib.*) each containing a object of type UICollectionReusableView. that has a reuse identifier
-   */
-  public func register<Resource: NibResourceType>(_ nibResources: [Resource], forSupplementaryViewOfKind kind: String)
-    where Resource: ReuseIdentifierType, Resource.ReusableType: UICollectionReusableView
-  {
-    nibResources.forEach { self.register($0, forSupplementaryViewOfKind: kind) }
   }
 
   /**
@@ -77,8 +55,8 @@ public extension UICollectionView {
 
    - parameter nibResource: A nib resource (R.nib.*) containing a object of type UICollectionReusableView. that has a reuse identifier
    */
-  public func register<Resource: NibResourceType>(_ nibResource: Resource, forSupplementaryViewOfKind kind: String)
-    where Resource: ReuseIdentifierType, Resource.ReusableType: UICollectionReusableView
+  public func register<Resource: NibResourceType & ReuseIdentifierType>(_ nibResource: Resource, forSupplementaryViewOfKind kind: String)
+    where Resource.ReusableType: UICollectionReusableView
   {
     register(UINib(resource: nibResource), forSupplementaryViewOfKind: kind, withReuseIdentifier: nibResource.identifier)
   }

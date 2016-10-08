@@ -55,20 +55,11 @@ public extension UITableView {
   }
 
   /**
-   Register an array of R.nib.*, each containing a cell, with the table view under it's contained identifier.
-
-   - parameter nibResources: Array of nib resources (R.nib.*) each containing a table view cell that has a reuse identifier
-   */
-  public func register<Resource: NibResourceType>(_ nibResources: [Resource]) where Resource: ReuseIdentifierType, Resource.ReusableType: UITableViewCell {
-    nibResources.forEach(register)
-  }
-
-  /**
    Register a R.nib.* containing a cell with the table view under it's contained identifier.
    
    - parameter nibResource: A nib resource (R.nib.*) containing a table view cell that has a reuse identifier
   */
-  public func register<Resource: NibResourceType>(_ nibResource: Resource) where Resource: ReuseIdentifierType, Resource.ReusableType: UITableViewCell {
+  public func register<Resource: NibResourceType & ReuseIdentifierType>(_ nibResource: Resource) where Resource.ReusableType: UITableViewCell {
     register(UINib(resource: nibResource), forCellReuseIdentifier: nibResource.identifier)
   }
 

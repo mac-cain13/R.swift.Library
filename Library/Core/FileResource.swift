@@ -1,9 +1,10 @@
 //
 //  FileResource.swift
-//  Pods
+//  R.swift.Library
 //
 //  Created by Mathijs Kadijk on 06-01-16.
-//
+//  From: https://github.com/mac-cain13/R.swift.Library
+//  License: MIT License
 //
 
 import Foundation

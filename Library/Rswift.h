@@ -3,7 +3,8 @@
 //  Rswift
 //
 //  Created by Mathijs Kadijk on 04-12-15.
-//  Copyright © 2015 Mathijs Kadijk. All rights reserved.
+//  From: https://github.com/mac-cain13/R.swift.Library
+//  License: MIT License
 //
 
 #import <UIKit/UIKit.h>

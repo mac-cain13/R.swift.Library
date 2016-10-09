@@ -3,7 +3,8 @@
 //  R.swift.Library
 //
 //  Created by Tom Lokhorst on 2016-04-23.
-//  Copyright © 2016 Mathijs Kadijk. All rights reserved.
+//  From: https://github.com/mac-cain13/R.swift.Library
+//  License: MIT License
 //
 
 import UIKit

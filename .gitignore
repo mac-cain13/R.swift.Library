@@ -6,3 +6,4 @@ fastlane/report.xml
 fastlane/test_output
 fastlane/settoken.sh
 /build
+Carthage/Build

@@ -1,5 +1,5 @@
 //
-//  ColorResource+UIKit.swift
+//  ColorPaletteItemResource+UIKit.swift
 //  R.swift.Library
 //
 //  Created by Tom Lokhorst on 2016-04-23.
@@ -9,11 +9,11 @@
 
 import UIKit
 
-public extension ColorResourceType {
+public extension ColorPaletteItemResourceType {
   /**
    Returns the a UIColor
 
-   - returns: A UIColor for this color resource
+   - returns: A UIColor for this color palette item resource
    */
   func color() -> UIColor {
     return UIColor(red: red, green: green, blue: blue, alpha: alpha)

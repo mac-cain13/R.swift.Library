@@ -63,13 +63,14 @@
 		E20F34A71C92B44100338F81 /* Data+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F34A61C92B44100338F81 /* Data+FileResource.swift */; };
 		E22D43671C95EEA100692FFF /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D43661C95EEA100692FFF /* ColorResource.swift */; };
 		E24720CA1C96B4D100DF291D /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D43661C95EEA100692FFF /* ColorResource.swift */; };
-		E250BE941CCBCEB100CC71DE /* ColorResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250BE931CCBCEB100CC71DE /* ColorResource+UIKit.swift */; };
-		E250BE951CCBF58200CC71DE /* ColorResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250BE931CCBCEB100CC71DE /* ColorResource+UIKit.swift */; };
 		E250BE971CCBF60300CC71DE /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250BE961CCBF60300CC71DE /* StringResource.swift */; };
 		E250BE991CCBF7E900CC71DE /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250BE961CCBF60300CC71DE /* StringResource.swift */; };
-		E2B0AF361D8142A400A7196C /* Core+Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0AF351D8142A400A7196C /* Core+Migration.swift */; };
-		E2B0AF381D8142BF00A7196C /* UIKit+Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0AF371D8142BF00A7196C /* UIKit+Migration.swift */; };
-		E2B0AF3A1D81483900A7196C /* Foundation+Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0AF391D81483900A7196C /* Foundation+Migration.swift */; };
+		E2CA68EB1EE75151009C4DB4 /* ColorPaletteItemResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA68EA1EE75151009C4DB4 /* ColorPaletteItemResource.swift */; };
+		E2CA68ED1EE751A9009C4DB4 /* ColorPaletteItemResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA68EC1EE751A9009C4DB4 /* ColorPaletteItemResource+UIKit.swift */; };
+		E2CA68EF1EE75992009C4DB4 /* UIColor+ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA68EE1EE75992009C4DB4 /* UIColor+ColorResource.swift */; };
+		E2CA68F01EE759C3009C4DB4 /* ColorPaletteItemResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA68EC1EE751A9009C4DB4 /* ColorPaletteItemResource+UIKit.swift */; };
+		E2CA68F11EE75A02009C4DB4 /* ColorPaletteItemResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA68EA1EE75151009C4DB4 /* ColorPaletteItemResource.swift */; };
+		E2CA68F21EE75A49009C4DB4 /* UIColor+ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA68EE1EE75992009C4DB4 /* UIColor+ColorResource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,11 +124,10 @@
 		D5E435AC1C3D00770091090C /* FileResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileResource.swift; sourceTree = "<group>"; };
 		E20F34A61C92B44100338F81 /* Data+FileResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+FileResource.swift"; sourceTree = "<group>"; };
 		E22D43661C95EEA100692FFF /* ColorResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorResource.swift; sourceTree = "<group>"; };
-		E250BE931CCBCEB100CC71DE /* ColorResource+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ColorResource+UIKit.swift"; sourceTree = "<group>"; };
 		E250BE961CCBF60300CC71DE /* StringResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringResource.swift; sourceTree = "<group>"; };
-		E2B0AF351D8142A400A7196C /* Core+Migration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Core+Migration.swift"; sourceTree = "<group>"; };
-		E2B0AF371D8142BF00A7196C /* UIKit+Migration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Migration.swift"; sourceTree = "<group>"; };
-		E2B0AF391D81483900A7196C /* Foundation+Migration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Migration.swift"; sourceTree = "<group>"; };
+		E2CA68EA1EE75151009C4DB4 /* ColorPaletteItemResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteItemResource.swift; sourceTree = "<group>"; };
+		E2CA68EC1EE751A9009C4DB4 /* ColorPaletteItemResource+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorPaletteItemResource+UIKit.swift"; sourceTree = "<group>"; };
+		E2CA68EE1EE75992009C4DB4 /* UIColor+ColorResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ColorResource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,11 +167,12 @@
 		D543F9C21C14987000D16A0C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				E250BE931CCBCEB100CC71DE /* ColorResource+UIKit.swift */,
+				E2CA68EC1EE751A9009C4DB4 /* ColorPaletteItemResource+UIKit.swift */,
 				D5E435A81C3CFB460091090C /* NibResource+UIKit.swift */,
 				D57E1EB81C3E4C1A00DDA68F /* StoryboardResourceWithInitialController+UIKit.swift */,
 				D543F9CE1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */,
 				D543F9C51C14992000D16A0C /* UICollectionView+ReuseIdentifierProtocol.swift */,
+				E2CA68EE1EE75992009C4DB4 /* UIColor+ColorResource.swift */,
 				D57E1EB41C3D774000DDA68F /* UIFont+FontResource.swift */,
 				D553F5861C44170E00885232 /* UIImage+ImageResource.swift */,
 				D5588CAA1C3F9DBE00912F97 /* UINib+NibResource.swift */,
@@ -180,7 +181,6 @@
 				D543F9C31C1498FB00D16A0C /* UITableView+ReuseIdentifierProtocol.swift */,
 				D543F9C71C14995800D16A0C /* UIViewController+NibResource.swift */,
 				D543F9C91C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift */,
-				E2B0AF371D8142BF00A7196C /* UIKit+Migration.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -188,6 +188,7 @@
 		D543F9CD1C1499CF00D16A0C /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				E2CA68EA1EE75151009C4DB4 /* ColorPaletteItemResource.swift */,
 				E22D43661C95EEA100692FFF /* ColorResource.swift */,
 				D5E435AC1C3D00770091090C /* FileResource.swift */,
 				D57E1EB21C3D762300DDA68F /* FontResource.swift */,
@@ -200,7 +201,6 @@
 				D51335261C959DF20014C9D4 /* StoryboardViewControllerResource.swift */,
 				E250BE961CCBF60300CC71DE /* StringResource.swift */,
 				D53F19231C229D7200AE2FAD /* Validatable.swift */,
-				E2B0AF351D8142A400A7196C /* Core+Migration.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -210,7 +210,6 @@
 			children = (
 				D56DC7721C42B65C00623437 /* Bundle+FileResource.swift */,
 				E20F34A61C92B44100338F81 /* Data+FileResource.swift */,
-				E2B0AF391D81483900A7196C /* Foundation+Migration.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -360,24 +359,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Mathijs Kadijk";
 				TargetAttributes = {
 					806E69911C42BD9C00DE3A8B = {
 						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0900;
 					};
 					806E699A1C42BD9C00DE3A8B = {
 						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0900;
 					};
 					D592464D1C117A55007F94C7 = {
 						CreatedOnToolsVersion = 7.1.1;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0900;
 					};
 					D59246571C117A55007F94C7 = {
 						CreatedOnToolsVersion = 7.1.1;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0900;
 					};
 				};
 			};
@@ -441,6 +440,7 @@
 				D513352B1C95B7620014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
 				D513352C1C95C61E0014C9D4 /* Data+FileResource.swift in Sources */,
 				806E69AD1C42BDDA00DE3A8B /* ReuseIdentifierProtocol.swift in Sources */,
+				E2CA68F21EE75A49009C4DB4 /* UIColor+ColorResource.swift in Sources */,
 				806E69B61C42BDE000DE3A8B /* UINib+NibResource.swift in Sources */,
 				806E69AA1C42BDDA00DE3A8B /* FontResource.swift in Sources */,
 				806E69B41C42BDE000DE3A8B /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */,
@@ -459,10 +459,11 @@
 				806E69B01C42BDDA00DE3A8B /* Validatable.swift in Sources */,
 				806E69B31C42BDE000DE3A8B /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */,
 				E250BE991CCBF7E900CC71DE /* StringResource.swift in Sources */,
+				E2CA68F01EE759C3009C4DB4 /* ColorPaletteItemResource+UIKit.swift in Sources */,
 				D5728B321C4D541500E38168 /* Bundle+FileResource.swift in Sources */,
-				E250BE951CCBF58200CC71DE /* ColorResource+UIKit.swift in Sources */,
 				806E69B91C42BDE000DE3A8B /* UITableView+ReuseIdentifierProtocol.swift in Sources */,
 				806E69AE1C42BDDA00DE3A8B /* StoryboardResource.swift in Sources */,
+				E2CA68F11EE75A02009C4DB4 /* ColorPaletteItemResource.swift in Sources */,
 				806E69A91C42BDDA00DE3A8B /* FileResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,15 +483,17 @@
 				D543F9CA1C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
 				D51335291C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
 				D5E435AD1C3D00770091090C /* FileResource.swift in Sources */,
+				E2CA68EB1EE75151009C4DB4 /* ColorPaletteItemResource.swift in Sources */,
 				D543F9BB1C1497EB00D16A0C /* Identifier.swift in Sources */,
+				E2CA68ED1EE751A9009C4DB4 /* ColorPaletteItemResource+UIKit.swift in Sources */,
 				D57E1EB71C3E482A00DDA68F /* StoryboardResource.swift in Sources */,
 				D57E1EBB1C3E4C4300DDA68F /* UIStoryboard+StoryboardResource.swift in Sources */,
 				D57E1EB31C3D762300DDA68F /* FontResource.swift in Sources */,
 				D57E1EB91C3E4C1A00DDA68F /* StoryboardResourceWithInitialController+UIKit.swift in Sources */,
 				D543F9BD1C14980600D16A0C /* ReuseIdentifierProtocol.swift in Sources */,
 				D543F9C11C14984300D16A0C /* NibResource.swift in Sources */,
+				E2CA68EF1EE75992009C4DB4 /* UIColor+ColorResource.swift in Sources */,
 				D553F5851C44157000885232 /* ImageResource.swift in Sources */,
-				E2B0AF381D8142BF00A7196C /* UIKit+Migration.swift in Sources */,
 				E20F34A71C92B44100338F81 /* Data+FileResource.swift in Sources */,
 				D57E1EB51C3D774000DDA68F /* UIFont+FontResource.swift in Sources */,
 				D5588CAB1C3F9DBE00912F97 /* UINib+NibResource.swift in Sources */,
@@ -500,12 +503,9 @@
 				D543F9C61C14992000D16A0C /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */,
 				D543F9BF1C14983100D16A0C /* StoryboardSegueIdentifierProtocol.swift in Sources */,
 				D543F9C81C14995800D16A0C /* UIViewController+NibResource.swift in Sources */,
-				E2B0AF3A1D81483900A7196C /* Foundation+Migration.swift in Sources */,
 				D5E435A91C3CFB460091090C /* NibResource+UIKit.swift in Sources */,
-				E2B0AF361D8142A400A7196C /* Core+Migration.swift in Sources */,
 				E250BE971CCBF60300CC71DE /* StringResource.swift in Sources */,
 				D543F9CF1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */,
-				E250BE941CCBCEB100CC71DE /* ColorResource+UIKit.swift in Sources */,
 				D543F9C41C1498FB00D16A0C /* UITableView+ReuseIdentifierProtocol.swift in Sources */,
 				D56DC7731C42B65C00623437 /* Bundle+FileResource.swift in Sources */,
 				D53F19241C229D7200AE2FAD /* Validatable.swift in Sources */,
@@ -552,7 +552,7 @@
 				PRODUCT_NAME = Rswift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -574,7 +574,7 @@
 				PRODUCT_NAME = Rswift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -588,7 +588,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.RswiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
@@ -601,7 +601,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.RswiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
@@ -614,14 +614,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -664,14 +670,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -718,7 +730,7 @@
 				PRODUCT_NAME = Rswift;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -739,7 +751,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.rswift.library;
 				PRODUCT_NAME = Rswift;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -750,7 +762,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.RswiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -761,7 +773,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.RswiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

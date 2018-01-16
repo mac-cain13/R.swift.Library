@@ -7,7 +7,7 @@
 //  License: MIT License
 //
 
-import Foundation
+import CoreGraphics
 
 public protocol ColorPaletteItemResourceType {
 

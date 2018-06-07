@@ -65,11 +65,7 @@
 		E24720CA1C96B4D100DF291D /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D43661C95EEA100692FFF /* ColorResource.swift */; };
 		E250BE971CCBF60300CC71DE /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250BE961CCBF60300CC71DE /* StringResource.swift */; };
 		E250BE991CCBF7E900CC71DE /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250BE961CCBF60300CC71DE /* StringResource.swift */; };
-		E2CA68EB1EE75151009C4DB4 /* ColorPaletteItemResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA68EA1EE75151009C4DB4 /* ColorPaletteItemResource.swift */; };
-		E2CA68ED1EE751A9009C4DB4 /* ColorPaletteItemResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA68EC1EE751A9009C4DB4 /* ColorPaletteItemResource+UIKit.swift */; };
 		E2CA68EF1EE75992009C4DB4 /* UIColor+ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA68EE1EE75992009C4DB4 /* UIColor+ColorResource.swift */; };
-		E2CA68F01EE759C3009C4DB4 /* ColorPaletteItemResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA68EC1EE751A9009C4DB4 /* ColorPaletteItemResource+UIKit.swift */; };
-		E2CA68F11EE75A02009C4DB4 /* ColorPaletteItemResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA68EA1EE75151009C4DB4 /* ColorPaletteItemResource.swift */; };
 		E2CA68F21EE75A49009C4DB4 /* UIColor+ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA68EE1EE75992009C4DB4 /* UIColor+ColorResource.swift */; };
 /* End PBXBuildFile section */
 
@@ -125,8 +121,6 @@
 		E20F34A61C92B44100338F81 /* Data+FileResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+FileResource.swift"; sourceTree = "<group>"; };
 		E22D43661C95EEA100692FFF /* ColorResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorResource.swift; sourceTree = "<group>"; };
 		E250BE961CCBF60300CC71DE /* StringResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringResource.swift; sourceTree = "<group>"; };
-		E2CA68EA1EE75151009C4DB4 /* ColorPaletteItemResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteItemResource.swift; sourceTree = "<group>"; };
-		E2CA68EC1EE751A9009C4DB4 /* ColorPaletteItemResource+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorPaletteItemResource+UIKit.swift"; sourceTree = "<group>"; };
 		E2CA68EE1EE75992009C4DB4 /* UIColor+ColorResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ColorResource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,7 +161,6 @@
 		D543F9C21C14987000D16A0C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				E2CA68EC1EE751A9009C4DB4 /* ColorPaletteItemResource+UIKit.swift */,
 				D5E435A81C3CFB460091090C /* NibResource+UIKit.swift */,
 				D57E1EB81C3E4C1A00DDA68F /* StoryboardResourceWithInitialController+UIKit.swift */,
 				D543F9CE1C149C0A00D16A0C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */,
@@ -188,7 +181,6 @@
 		D543F9CD1C1499CF00D16A0C /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				E2CA68EA1EE75151009C4DB4 /* ColorPaletteItemResource.swift */,
 				E22D43661C95EEA100692FFF /* ColorResource.swift */,
 				D5E435AC1C3D00770091090C /* FileResource.swift */,
 				D57E1EB21C3D762300DDA68F /* FontResource.swift */,
@@ -459,11 +451,9 @@
 				806E69B01C42BDDA00DE3A8B /* Validatable.swift in Sources */,
 				806E69B31C42BDE000DE3A8B /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */,
 				E250BE991CCBF7E900CC71DE /* StringResource.swift in Sources */,
-				E2CA68F01EE759C3009C4DB4 /* ColorPaletteItemResource+UIKit.swift in Sources */,
 				D5728B321C4D541500E38168 /* Bundle+FileResource.swift in Sources */,
 				806E69B91C42BDE000DE3A8B /* UITableView+ReuseIdentifierProtocol.swift in Sources */,
 				806E69AE1C42BDDA00DE3A8B /* StoryboardResource.swift in Sources */,
-				E2CA68F11EE75A02009C4DB4 /* ColorPaletteItemResource.swift in Sources */,
 				806E69A91C42BDDA00DE3A8B /* FileResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,9 +473,7 @@
 				D543F9CA1C14998800D16A0C /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
 				D51335291C95A79B0014C9D4 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
 				D5E435AD1C3D00770091090C /* FileResource.swift in Sources */,
-				E2CA68EB1EE75151009C4DB4 /* ColorPaletteItemResource.swift in Sources */,
 				D543F9BB1C1497EB00D16A0C /* Identifier.swift in Sources */,
-				E2CA68ED1EE751A9009C4DB4 /* ColorPaletteItemResource+UIKit.swift in Sources */,
 				D57E1EB71C3E482A00DDA68F /* StoryboardResource.swift in Sources */,
 				D57E1EBB1C3E4C4300DDA68F /* UIStoryboard+StoryboardResource.swift in Sources */,
 				D57E1EB31C3D762300DDA68F /* FontResource.swift in Sources */,

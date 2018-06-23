@@ -8,7 +8,7 @@ lane :release do |options|
   if options[:allow_dirty_branch] != true
     ensure_git_status_clean
   else
-    Helper.log.info "Skipping the 'git status clean' check!".yellow
+    UI.message "Skipping the 'git status clean' check!".yellow
   end
 
   git_pull
@@ -23,7 +23,7 @@ lane :release do |options|
   end
 
   currentVersion = version_get_podspec()
-  Helper.log.info "Current R.swift.Library podspec version is #{currentVersion}"
+  UI.message "Current R.swift.Library podspec version is #{currentVersion}"
 
   bumpType = prompt(text: "What kind of release is this? (major/minor/patch/custom)".green, boolean: false, ci_input: "")
   isPrerelease = false

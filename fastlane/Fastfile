@@ -77,13 +77,13 @@ lane :runalltests do
   scan(
     project: "R.swift.Library.xcodeproj",
     scheme: "Rswift-iOS",
-    destination: "name=iPhone SE",
+    device: "iPhone 8",
     clean: true
   )
   scan(
     project: "R.swift.Library.xcodeproj",
     scheme: "Rswift-tvOS",
-    destination: "name=Apple TV 1080p",
+    device: "Apple TV 4K",
     clean: true
   )
 end

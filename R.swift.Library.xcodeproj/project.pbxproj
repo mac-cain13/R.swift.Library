@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F5FBC4421355A1400A83A69 /* Rswift_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5FBC4221355A1400A83A69 /* Rswift_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F5FBC4821355AC400A83A69 /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D43661C95EEA100692FFF /* ColorResource.swift */; };
 		2F5FBC4A21355ADB00A83A69 /* Bundle+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DC7721C42B65C00623437 /* Bundle+FileResource.swift */; };
 		2F5FBC4B21355ADB00A83A69 /* Data+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F34A61C92B44100338F81 /* Data+FileResource.swift */; };
@@ -106,8 +105,6 @@
 
 /* Begin PBXFileReference section */
 		2F5FBC4021355A1400A83A69 /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F5FBC4221355A1400A83A69 /* Rswift_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rswift_watchOS.h; sourceTree = "<group>"; };
-		2F5FBC4321355A1400A83A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		806E69921C42BD9C00DE3A8B /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		806E699B1C42BD9C00DE3A8B /* RswiftTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RswiftTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51335261C959DF20014C9D4 /* StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardViewControllerResource.swift; sourceTree = "<group>"; };
@@ -186,15 +183,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F5FBC4121355A1400A83A69 /* Rswift-watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				2F5FBC4221355A1400A83A69 /* Rswift_watchOS.h */,
-				2F5FBC4321355A1400A83A69 /* Info.plist */,
-			);
-			path = "Rswift-watchOS";
-			sourceTree = "<group>";
-		};
 		D543F9C21C14987000D16A0C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,7 +236,6 @@
 			children = (
 				D59246501C117A55007F94C7 /* Library */,
 				D592465C1C117A55007F94C7 /* LibraryTests */,
-				2F5FBC4121355A1400A83A69 /* Rswift-watchOS */,
 				D592464F1C117A55007F94C7 /* Products */,
 			);
 			indentWidth = 2;
@@ -296,7 +283,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F5FBC4421355A1400A83A69 /* Rswift_watchOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,7 +628,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Rswift-watchOS/Info.plist";
+				INFOPLIST_FILE = Library/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -675,7 +661,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Rswift-watchOS/Info.plist";
+				INFOPLIST_FILE = Library/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;

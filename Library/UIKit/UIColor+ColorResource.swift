@@ -36,7 +36,7 @@ public extension UIColor {
    - returns: A color that exactly or best matches the desired traits with the given resource (R.color.*), or nil if no suitable color was found.
    */
   @available(watchOSApplicationExtension 4.0, *)
-  public convenience init?(resource: ColorResourceType) {
+  convenience init?(resource: ColorResourceType) {
     self.init(named: resource.name)
   }
   #endif

@@ -33,7 +33,7 @@ public extension UIImage {
 
    - returns: An image that exactly or best matches the desired traits with the given resource (R.image.*), or nil if no suitable image was found.
    */
-  public convenience init?(resource: ImageResourceType) {
+  convenience init?(resource: ImageResourceType) {
     self.init(named: resource.name)
   }
   #endif

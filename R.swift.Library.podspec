@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "R.swift.Library"
-  spec.version      = "5.0.0.alpha.1"
+  spec.version      = "5.0.1"
   spec.license      = "MIT"
 
   spec.summary      = "Companion library for R.swift, featuring types used to type resources"
@@ -17,6 +17,8 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
   spec.source          = { :git => "https://github.com/mac-cain13/R.swift.Library.git", :tag => "v#{spec.version}" }
+
+  spec.pod_target_xcconfig = { 'APPLICATION_EXTENSION_API_ONLY' => 'YES' }
 
   spec.ios.deployment_target     = '8.0'
   spec.ios.source_files  = "Library/**/*.swift"

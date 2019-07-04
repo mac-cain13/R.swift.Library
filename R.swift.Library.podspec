@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "R.swift.Library"
-  spec.version      = "5.0.1"
+  spec.version      = "5.1.0.alpha.1"
   spec.license      = "MIT"
 
   spec.summary      = "Companion library for R.swift, featuring types used to type resources"

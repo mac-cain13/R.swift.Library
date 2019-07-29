@@ -7,3 +7,4 @@ fastlane/test_output
 fastlane/settoken.sh
 /build
 Carthage/Build
+.swiftpm

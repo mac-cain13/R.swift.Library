@@ -17,6 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
   spec.source          = { :git => "https://github.com/mac-cain13/R.swift.Library.git", :tag => "v#{spec.version}" }
+  spec.swift_version   = "5.1"
 
   spec.pod_target_xcconfig = { 'APPLICATION_EXTENSION_API_ONLY' => 'YES' }
 

@@ -22,3 +22,10 @@ public extension SwiftUI.Color {
 		self.init(resource.name, bundle: resource.bundle)
 	}
 }
+
+@available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
+public extension ColorResource {
+	var color: SwiftUI.Color {
+		SwiftUI.Color(self)
+	}
+}

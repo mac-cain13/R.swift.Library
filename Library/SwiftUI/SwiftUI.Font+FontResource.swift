@@ -23,3 +23,10 @@ public extension SwiftUI.Font {
 		self = .custom(resource.fontName, size: size)
 	}
 }
+
+@available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
+public extension FontResource {
+	func font(size: CGFloat) -> SwiftUI.Font {
+		SwiftUI.Font(self, size: size)
+	}
+}

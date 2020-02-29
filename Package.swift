@@ -10,7 +10,8 @@ let package = Package(
         .watchOS(.v2),
     ],
     products: [
-        .library(name: "Rswift", targets: ["Rswift"])
+        .library(name: "Rswift", targets: ["Rswift"]),
+        .library(name: "RswiftDynamic", type: .dynamic, targets: ["Rswift"])
     ],
     targets: [
         .target(name: "Rswift", path: "Library")

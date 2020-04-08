@@ -10,7 +10,7 @@
 import SwiftUI
 
 @available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
-public extension SwiftUI.Color {
+public extension Color {
 	/**
 	Returns the SwiftUI.Color from this resource (R.color.*)
 	
@@ -25,7 +25,7 @@ public extension SwiftUI.Color {
 
 @available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
 public extension ColorResource {
-	var color: SwiftUI.Color {
+	var color: Color {
 		SwiftUI.Color(self)
 	}
 }

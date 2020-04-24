@@ -8,7 +8,8 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        .library(name: "Rswift", targets: ["Rswift"])
+        .library(name: "Rswift", targets: ["Rswift"]),
+        .library(name: "RswiftDynamic", type: .dynamic, targets: ["Rswift"])
     ],
     targets: [
 		.target(name: "Rswift", path: "Library")

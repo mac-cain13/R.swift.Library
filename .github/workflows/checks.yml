@@ -1,4 +1,4 @@
-name: Checks
+name: Build
 
 on:
   push:
@@ -6,10 +6,28 @@ on:
   pull_request:
     branches: '*'
 
+env:
+  DEVELOPER_DIR: /Applications/Xcode_11.4.app/Contents/Developer
+
 jobs:
-  build:
+  iOS:
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v2
     - name: Build
-      run: swift build -v
+      run: xcodebuild -scheme "Rswift-iOS"
+  tvOS:
+    runs-on: macos-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Build
+      run: xcodebuild -scheme "Rswift-tvOS"
+  watchOS:
+    runs-on: macos-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Build
+      run: xcodebuild -scheme "Rswift-watchOS"

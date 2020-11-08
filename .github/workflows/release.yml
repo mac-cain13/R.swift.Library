@@ -9,6 +9,8 @@ env:
 
 jobs:
   publish:
+    runs-on: macos-latest
+    steps:
     - name: Publish to Cocoapods
       run: |
         export POD_VERSION=$(echo $TAG_NAME | cut -c2-)

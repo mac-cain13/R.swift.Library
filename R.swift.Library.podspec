@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
 
   spec.pod_target_xcconfig = { 'APPLICATION_EXTENSION_API_ONLY' => 'YES' }
 
-  spec.ios.deployment_target     = '8.0'
+  spec.ios.deployment_target     = '9.0'
   spec.ios.source_files  = "Library/**/*.swift"
   spec.tvos.deployment_target    = '9.0'
   spec.tvos.source_files  = "Library/**/*.swift"

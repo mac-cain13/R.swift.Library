@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "R.swift.Library",
     platforms: [
-        .iOS(.v8),
+        .iOS(.v9),
         .tvOS(.v9),
         .watchOS(.v2),
     ],

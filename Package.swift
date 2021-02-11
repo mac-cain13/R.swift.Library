@@ -7,8 +7,7 @@ let package = Package(
     platforms: [
 		.iOS(.v11),
 		.tvOS(.v9),
-		.watchOS(.v2),
-
+		.watchOS(.v2)
     ],
     products: [
         .library(name: "Rswift", targets: ["Rswift"]),

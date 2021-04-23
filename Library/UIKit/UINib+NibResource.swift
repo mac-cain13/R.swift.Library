@@ -7,7 +7,7 @@
 //  License: MIT License
 //
 
-#if !os(watchOS)
+#if canImport(UIKit)
 import UIKit
 
 public extension UINib {

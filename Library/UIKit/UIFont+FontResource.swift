@@ -7,6 +7,7 @@
 //  License: MIT License
 //
 
+#if canImport(UIKit)
 import Foundation
 import UIKit
 
@@ -23,3 +24,4 @@ public extension UIFont {
     self.init(name: resource.fontName, size: size)
   }
 }
+#endif

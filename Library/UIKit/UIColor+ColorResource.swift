@@ -7,6 +7,7 @@
 //  License: MIT License
 //
 
+#if canImport(UIKit)
 import UIKit
 
 @available(iOS 11.0, *)
@@ -41,3 +42,4 @@ public extension UIColor {
   }
   #endif
 }
+#endif

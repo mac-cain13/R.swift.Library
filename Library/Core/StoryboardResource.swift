@@ -12,7 +12,7 @@ import Foundation
 public protocol StoryboardResourceType {
 
   /// Bundle this storyboard is in
-  var bundle: Bundle { get }
+  var bundle: Bundle? { get }
 
   /// Name of the storyboard file on disk
   var name: String { get }

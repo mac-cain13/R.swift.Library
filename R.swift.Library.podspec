@@ -17,15 +17,15 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
   spec.source          = { :git => "https://github.com/mac-cain13/R.swift.Library.git", :tag => "v#{spec.version}" }
-  spec.swift_version   = "5.1"
+  spec.swift_version   = "5.7"
 
   spec.pod_target_xcconfig = { 'APPLICATION_EXTENSION_API_ONLY' => 'YES' }
 
-  spec.ios.deployment_target     = '9.0'
+  spec.ios.deployment_target     = '11.0'
   spec.ios.source_files  = "Library/**/*.swift"
-  spec.tvos.deployment_target    = '9.0'
+  spec.tvos.deployment_target    = '11.0'
   spec.tvos.source_files  = "Library/**/*.swift"
-  spec.watchos.deployment_target = '2.2'
+  spec.watchos.deployment_target = '4.0'
   spec.watchos.source_files  = ["Library/Core/*.swift", "Library/Foundation/*.swift"]
 
   spec.module_name   = "Rswift"
